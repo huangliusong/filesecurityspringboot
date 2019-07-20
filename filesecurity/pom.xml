@@ -3,22 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>filesecurity-spring-boot-samples</artifactId>
+        <artifactId>filesecurity-spring-boot</artifactId>
         <groupId>top.huangliusong2019</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>filesecurity-spring-boot-sample-properties</artifactId>
+    <artifactId>filesecurity</artifactId>
     <version>1.0.0</version>
 
-
-    <dependencies>
-        <dependency>
-            <groupId>top.huangliusong2019</groupId>
-            <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-    </dependencies>
 
 </project>

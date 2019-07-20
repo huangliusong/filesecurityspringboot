@@ -21,8 +21,6 @@ import top.huangliusong2019.spring.autoconfigure.FileSecurityProperties;
 @RequestMapping(value = "/v1")
 public class PropertiesController {
 
-    private Logger logger = LoggerFactory.getLogger(FileSecurityAnnotation.class);
-
     @Autowired
     private FileSecurityProperties properties;
 
@@ -31,9 +29,7 @@ public class PropertiesController {
     @ResponseBody
     public PropEntity prop() {
         PropEntity propEntity = new PropEntity();
-        logger.info("properties={}", properties);
         BeanUtils.copyProperties(properties, propEntity);
-        logger.info("propEntity={}", propEntity);
         return propEntity;
     }
 }
