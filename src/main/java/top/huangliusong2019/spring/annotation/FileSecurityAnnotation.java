@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 添加该注解到方法中即可拦截方法
+ * Adding this annotation to a method intercepts the method
  *
  * @author huangliusong
  * @version 1.0.0
