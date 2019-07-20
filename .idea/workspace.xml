@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="90" selection-start-line="3" selection-start-column="90" selection-end-line="3" selection-end-column="90" />
+              <first_editor relative-caret-position="426">
+                <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -173,7 +173,7 @@
       <updated>1562804818665</updated>
       <workItem from="1562804820099" duration="1791000" />
       <workItem from="1562931579505" duration="10000" />
-      <workItem from="1563584357466" duration="3564000" />
+      <workItem from="1563584357466" duration="3962000" />
     </task>
     <task id="LOCAL-00001" summary="Maven">
       <created>1563588435047</created>
@@ -182,11 +182,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563588435047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg">
+      <created>1563588638772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563588638772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="https://img.shields.io/badge/Maven%20central-v1.1-red.svg">
+      <created>1563588783634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563588783634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5365000" />
+    <option name="totallyTimeSpent" value="5763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -276,7 +290,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maven" />
+    <MESSAGE value="https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg" />
+    <MESSAGE value="https://img.shields.io/badge/Maven%20central-v1.1-red.svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://img.shields.io/badge/Maven%20central-v1.1-red.svg" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/annotation/FileSecurityAnnotation.java">
@@ -481,8 +497,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="90" selection-start-line="3" selection-start-column="90" selection-end-line="3" selection-end-column="90" />
+          <first_editor relative-caret-position="426">
+            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor />
         </state>
