@@ -5,14 +5,14 @@
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)
 
 ## top.huangliusong2019
-filesecurityspringboot  will help you use filesecurit with Spring Boot
+file-security-spring-boot  will help you use file-security with Spring Boot
 
 
 ## Requirements
 
 * Java 8+ and 
 * Spring Boot 1.5.7+
-
+* Maven 3.3.9+
 
 ## Quick Start
 
