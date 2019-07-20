@@ -4,15 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="package ok">
-      <change afterPath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/SampleStaterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/controller/StarterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build_project_by_hls.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring-autoconfigure-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -31,23 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileSecurityInterceptorRegister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
+      <file leaf-file-name="build_project_by_hls.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build_project_by_hls.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSecurityInterceptor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -125,6 +108,7 @@
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/controller/StarterController.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/build_project_by_hls.sh" />
       </list>
     </option>
   </component>
@@ -186,6 +170,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -380,7 +365,7 @@
       <updated>1562804818665</updated>
       <workItem from="1562804820099" duration="1791000" />
       <workItem from="1562931579505" duration="10000" />
-      <workItem from="1563584357466" duration="17854000" />
+      <workItem from="1563584357466" duration="18537000" />
     </task>
     <task id="LOCAL-00001" summary="Maven">
       <created>1563588435047</created>
@@ -571,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563603301829</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="delete target">
+      <created>1563604048882</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1563604048882</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -607,89 +599,50 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19655000" />
+    <option name="totallyTimeSpent" value="20338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32969698" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="16" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="5" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32969698" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32969698" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26909092" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="7" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.26909092" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.4848485" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="9" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.48606062" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3004292" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" weight="0.32969698" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="9" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3890909" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.19393939" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32969698" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32969698" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="BPMNPalette" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32969698" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -720,7 +673,8 @@
     <MESSAGE value=" &lt;modules&gt;&#10;        &lt;module&gt;filesecurity-spring-boot-sample-annotation&lt;/module&gt;&#10;        &lt;module&gt;filesecurity-spring-boot-sample-properties&lt;/module&gt;&#10;    &lt;/modules&gt;" />
     <MESSAGE value="delete space" />
     <MESSAGE value="package ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="package ok" />
+    <MESSAGE value="delete target" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,13 +691,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/mybatis-parent/29/mybatis-parent-29.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7486">
-          <caret line="394" column="22" selection-start-line="394" selection-start-column="22" selection-end-line="394" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/spring/autoconfigure/FileSecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1071,20 +1018,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        <state relative-caret-position="-67">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_project_by_hls.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>

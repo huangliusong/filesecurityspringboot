@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 
 /**
+ * Intercept specific requests or all requests
+ * When the annotation FileSecurityAnnotation is used, it intercepts the annotation method
+ *
  * @author huangliusong
  * @version 1.0.0
  * @since 2019/7/5
@@ -28,11 +31,11 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
         Method method = handlerMethod.getMethod();
         //Gets the specified annotation on the current method
         FileSecurityAnnotation loggerHLSAnnotation = method.getAnnotation(FileSecurityAnnotation.class);
-        //Determine if the current annotation exists
+        //if the current annotation exists
         if (loggerHLSAnnotation != null) {
             long startTime = System.currentTimeMillis();
             request.setAttribute("startTime", startTime);
-            logger.info("进入" + method.getName() + "方法的时间是：" + startTime);
+            logger.info("Enter the method of name={},Enter the time={}ms", method.getName(), +startTime);
         }
 
         return true;
@@ -42,15 +45,15 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
         Method method = handlerMethod.getMethod();
-        //获取当前方法上的指定注解
+        //Gets the specified annotation on the current method
         FileSecurityAnnotation loggerHLSAnnotation = method.getAnnotation(FileSecurityAnnotation.class);
-        //判断当前注解是否存在
+        //if the current annotation exists
         if (loggerHLSAnnotation != null) {
             long endTime = System.currentTimeMillis();
             long startTime = (Long) request.getAttribute("startTime");
             long periodTime = endTime - startTime;
-            logger.info("离开" + method.getName() + "方法的时间是：" + endTime);
-            logger.info("在" + method.getName() + "方法的时长是：" + periodTime);
+            logger.info("Leave the method of name={},Leave the time={}", method.getName(), endTime);
+            logger.info(" In method ={},Time consuming={}", method.getName(), periodTime);
         }
 
     }
