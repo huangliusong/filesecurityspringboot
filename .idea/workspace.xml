@@ -4,16 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="build by shell">
+    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project_by_hls.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build_project_by_hls.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +51,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="335">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -438,7 +430,7 @@
       <updated>1562804818665</updated>
       <workItem from="1562804820099" duration="1791000" />
       <workItem from="1562931579505" duration="10000" />
-      <workItem from="1563584357466" duration="25478000" />
+      <workItem from="1563584357466" duration="25611000" />
     </task>
     <task id="LOCAL-00001" summary="Maven">
       <created>1563588435047</created>
@@ -643,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563604740192</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="解决本地打包问题">
+      <created>1563611892969</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1563611892969</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,10 +678,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27279000" />
+    <option name="totallyTimeSpent" value="27412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="16" weight="0.32969698" />
@@ -793,7 +793,8 @@
     <MESSAGE value="package ok" />
     <MESSAGE value="delete target" />
     <MESSAGE value="build by shell" />
-    <option name="LAST_COMMIT_MESSAGE" value="build by shell" />
+    <MESSAGE value="解决本地打包问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决本地打包问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1156,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="335">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
