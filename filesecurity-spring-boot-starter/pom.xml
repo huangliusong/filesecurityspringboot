@@ -5,7 +5,7 @@
     <parent>
         <artifactId>filesecurity-spring-boot</artifactId>
         <groupId>top.huangliusong2019</groupId>
-        <version>1.0.0</version>
+        <version>1.1.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -17,10 +17,12 @@
         <dependency>
             <groupId>top.huangliusong2019</groupId>
             <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>
+            <version>${filesecurity-spring-boot-test-autoconfigure.version}</version>
         </dependency>
         <dependency>
             <groupId>top.huangliusong2019</groupId>
             <artifactId>filesecurity</artifactId>
+            <version>${filesecurity.version}</version>
         </dependency>
     </dependencies>
 </project>

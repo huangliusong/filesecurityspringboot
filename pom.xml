@@ -7,7 +7,7 @@
     <groupId>top.huangliusong2019</groupId>
     <artifactId>filesecurity-spring-boot</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.1.1</version>
     <modules>
         <module>filesecurity-spring-boot-autoconfigure</module>
         <module>filesecurity-spring-boot-test-autoconfigure</module>
@@ -21,8 +21,10 @@
         <filesecurity.version>1.0.0</filesecurity.version>
         <filesecurity-spring-boot-autoconfigure.version>1.0.0</filesecurity-spring-boot-autoconfigure.version>
         <filesecurity-spring-boot-samples.version>1.0.0</filesecurity-spring-boot-samples.version>
-        <filesecurity-spring-boot-starter.version>1.0.0</filesecurity-spring-boot-starter.version>
+        <filesecurity-spring-boot-starter.version>1.0.1</filesecurity-spring-boot-starter.version>
         <filesecurity-spring-boot-test-autoconfigure.version>1.0.0</filesecurity-spring-boot-test-autoconfigure.version>
+        <filesecurity-spring-boot-sample-properties.version>1.0.0</filesecurity-spring-boot-sample-properties.version>
+        <filesecurity-spring-boot-samples-annotation.version>1.0.0</filesecurity-spring-boot-samples-annotation.version>
         <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
     </properties>
 
