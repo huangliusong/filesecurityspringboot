@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>filesecurity-spring-boot-autoconfigure</module>
+        <module>filesecurity-spring-boot-test-autoconfigure</module>
     </modules>
 
     <parent>
