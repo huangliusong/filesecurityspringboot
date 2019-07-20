@@ -1,4 +1,4 @@
-package top.huangliusong2019.spring.annotation;
+package annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

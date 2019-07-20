@@ -13,6 +13,7 @@
         <module>filesecurity-spring-boot-test-autoconfigure</module>
         <module>filesecurity-spring-boot-samples</module>
         <module>filesecurity</module>
+        <module>filesecurity-spring-boot-starter</module>
     </modules>
 
 
