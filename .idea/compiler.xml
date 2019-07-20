@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="filesecurity-spring-boot-autoconfigure" />
+        <module name="filesecurity-spring-boot-sample-annotation" />
         <module name="filesecurity-spring-boot-test-autoconfigure" />
-        <module name="filesecurityspringbootsamples" />
       </profile>
     </annotationProcessing>
   </component>
