@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="filesecurity" />
         <module name="filesecurity-spring-boot-autoconfigure" />
         <module name="filesecurity-spring-boot-sample-annotation" />
         <module name="filesecurity-spring-boot-sample-properties" />
