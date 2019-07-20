@@ -24,6 +24,11 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 </dependency>
 ~~~
 
+## filesecurity-parent
+[filesecurity-spring-boot](https://github.com/huangliusong1994/filesecurity-parent)
+
+
+
 ## metadata
 [metadata document of spring](https://docs.spring.io/spring-boot/docs/2.1.x/reference/htmlsingle/#configuration-metadata
 )
