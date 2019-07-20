@@ -1,3 +1,4 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-top.huangliusong2019.spring.autoconfigure.FileSecurityAutoConfiguration
+top.huangliusong2019.spring.autoconfigure.FileSecurityAutoConfiguration,\
+top.huangliusong2019.spring.register.FileSecurityInterceptorRegister

@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import top.huangliusong2019.spring.annotation.FileSecurityAnnotation;
 import top.huangliusong2019.spring.autoconfigure.FileSecurityProperties;
 import top.huangliusong2019.test.spring.entity.PropEntity;
 
@@ -21,7 +20,7 @@ import top.huangliusong2019.test.spring.entity.PropEntity;
 @RequestMapping(value = "/v1")
 public class PropertiesController {
 
-    private Logger logger = LoggerFactory.getLogger(FileSecurityAnnotation.class);
+    private Logger logger = LoggerFactory.getLogger(PropertiesController.class);
 
     @Autowired
     private FileSecurityProperties properties;

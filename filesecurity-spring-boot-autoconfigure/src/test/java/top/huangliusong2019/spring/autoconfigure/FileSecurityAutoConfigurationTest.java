@@ -16,7 +16,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 
 public class FileSecurityAutoConfigurationTest {
-    private static final Logger logger = LoggerFactory.getLogger(FileSecurityPropertiesTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(FileSecurityAutoConfigurationTest.class);
     private AnnotationConfigApplicationContext context;
 
     @Before

@@ -4,7 +4,7 @@ package top.huangliusong2019.spring.register;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import top.huangliusong2019.spring.handler.FileSecurityInterceptor;
 
 /**
@@ -13,11 +13,11 @@ import top.huangliusong2019.spring.handler.FileSecurityInterceptor;
  * @author huangliusong
  * @version 1.0.0
  * @since 2019/7/5
- * {@link WebMvcConfigurerAdapter}
+ * {@link WebMvcConfigurer}
  * {@link FileSecurityInterceptor}
  */
 @Configuration
-public class FileSecurityInterceptorRegister extends WebMvcConfigurerAdapter {
+public class FileSecurityInterceptorRegister implements WebMvcConfigurer {
 
 
     @Bean

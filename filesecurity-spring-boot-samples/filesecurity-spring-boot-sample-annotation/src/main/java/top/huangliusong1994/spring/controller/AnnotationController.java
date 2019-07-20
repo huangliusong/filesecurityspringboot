@@ -1,12 +1,10 @@
 package top.huangliusong1994.spring.controller;
 
+import annotation.FileSecurityAnnotation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import top.huangliusong1994.spring.PropEntity;
-import top.huangliusong2019.spring.annotation.FileSecurityAnnotation;
 import top.huangliusong2019.spring.autoconfigure.FileSecurityProperties;
 
 /**
@@ -19,17 +17,17 @@ import top.huangliusong2019.spring.autoconfigure.FileSecurityProperties;
 @RestController
 @CrossOrigin
 @RequestMapping(value = "/v1")
-public class PropertiesController {
-
+public class AnnotationController {
+    private Logger logger = LoggerFactory.getLogger(AnnotationController.class);
     @Autowired
     private FileSecurityProperties properties;
 
 
-    @GetMapping(value = "/prop")
+    @GetMapping(value = "/annotation")
     @ResponseBody
-    public PropEntity prop() {
-        PropEntity propEntity = new PropEntity();
-        BeanUtils.copyProperties(properties, propEntity);
-        return propEntity;
+    @FileSecurityAnnotation
+    public String prop() {
+        logger.info("Test Interceptor...");
+        return "success";
     }
 }

@@ -1,11 +1,11 @@
 package top.huangliusong2019.spring.handler;
 
+import annotation.FileSecurityAnnotation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
-import top.huangliusong2019.spring.annotation.FileSecurityAnnotation;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
  * {@link FileSecurityAnnotation}
  */
 public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
-    private Logger logger = LoggerFactory.getLogger(FileSecurityAnnotation.class);
+    private Logger logger = LoggerFactory.getLogger(FileSecurityInterceptor.class);
 
 
     @Override

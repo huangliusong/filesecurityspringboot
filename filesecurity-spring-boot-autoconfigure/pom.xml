@@ -50,6 +50,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>top.huangliusong2019</groupId>
+            <artifactId>filesecurity</artifactId>
+            <version>${filesecurity.version}</version>
+        </dependency>
     </dependencies>
 
 

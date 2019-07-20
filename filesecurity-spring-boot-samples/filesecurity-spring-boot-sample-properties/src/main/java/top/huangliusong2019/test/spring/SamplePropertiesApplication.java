@@ -25,10 +25,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2019/7/20
  */
 @SpringBootApplication
-public class SampleAnnotationApplication {
+public class SamplePropertiesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SampleAnnotationApplication.class, args);
+        SpringApplication.run(SamplePropertiesApplication.class, args);
     }
 
 }
