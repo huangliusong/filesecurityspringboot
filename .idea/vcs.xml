@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/filesecurity" vcs="git" />
+    <mapping directory="$PROJECT_DIR$/filesecurity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/filesecurity-spring-boot-starter" vcs="Git" />
   </component>
 </project>
