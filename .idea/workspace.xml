@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/controller/PropertiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/controller/PropertiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -11,6 +10,7 @@
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-samples/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/target/" />
+    <ignored path="$PROJECT_DIR$/filesecurity/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,23 +20,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileSecurityAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSecurityProperties.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filesecurity/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -86,12 +88,12 @@
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/PropEntity.java" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/spring/SampleAnnotationApplication.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/SampleAnnotationApplication.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/pom.xml" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/controller/PropertiesController.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/controller/PropertiesController.java" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -134,173 +136,18 @@
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-properties" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -525,7 +372,7 @@
       <updated>1562804818665</updated>
       <workItem from="1562804820099" duration="1791000" />
       <workItem from="1562931579505" duration="10000" />
-      <workItem from="1563584357466" duration="10031000" />
+      <workItem from="1563584357466" duration="10328000" />
     </task>
     <task id="LOCAL-00001" summary="Maven">
       <created>1563588435047</created>
@@ -632,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563595447433</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="filesecurity-spring-boot-sample-properties">
+      <created>1563595816429</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563595816429</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -668,7 +522,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11832000" />
+    <option name="totallyTimeSpent" value="12129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -786,13 +640,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1066,13 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="123" selection-start-line="5" selection-start-column="123" selection-end-line="5" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/SampleAnnotationApplication.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1087,13 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="21" column="19" selection-start-line="15" selection-start-column="3" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1123,11 +956,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="-289">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
