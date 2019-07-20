@@ -4,8 +4,11 @@ import annotation.FileSecurityAnnotation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+import org.springframework.web.util.WebUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -33,6 +36,10 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
         FileSecurityAnnotation loggerHLSAnnotation = method.getAnnotation(FileSecurityAnnotation.class);
         //if the current annotation exists
         if (loggerHLSAnnotation != null) {
+            MultipartHttpServletRequest multipartHttpServletRequest = WebUtils.getNativeRequest(request, MultipartHttpServletRequest.class);
+            MultipartFile multipartFile = multipartHttpServletRequest.getFile("file");
+            String filename = multipartFile.getOriginalFilename();
+            logger.info("filename={}", filename);
             long startTime = System.currentTimeMillis();
             request.setAttribute("startTime", startTime);
             logger.info("Enter the method of name={},Enter the time={}ms", method.getName(), +startTime);

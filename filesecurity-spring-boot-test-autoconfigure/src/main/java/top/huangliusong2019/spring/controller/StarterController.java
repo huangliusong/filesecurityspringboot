@@ -1,10 +1,8 @@
 package top.huangliusong2019.spring.controller;
 
 import annotation.FileSecurityAnnotation;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @author huangliusong
@@ -19,6 +17,15 @@ public class StarterController {
     @FileSecurityAnnotation
     @GetMapping("/starter")
     public String starter() {
+        return "success";
+    }
+
+    @FileSecurityAnnotation
+    @PostMapping("/file")
+    public String starter(@RequestParam("file") MultipartFile file) {
+        System.out.println(file.getContentType());
+        System.out.println(file.getName());
+        System.out.println(file.getSize());
         return "success";
     }
 }

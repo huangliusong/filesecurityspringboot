@@ -7,7 +7,7 @@
     <artifactId>filesecurity-spring-boot</artifactId>
     <groupId>top.huangliusong2019</groupId>
     <packaging>pom</packaging>
-    <version>1.1.2</version>
+    <version>1.1.1.SNAPSHOT</version>
 
     <modules>
         <module>filesecurity-spring-boot-autoconfigure</module>
@@ -20,7 +20,7 @@
     <parent>
         <groupId>top.huangliusong2019</groupId>
         <artifactId>filesecurity-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.1.1-SNAPSHOT</version>
     </parent>
 
     <distributionManagement>

@@ -19,8 +19,8 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 ~~~
 <dependency>
   <groupId>top.huangliusong2019</groupId>
-  <artifactId>filesecurity-spring-boot</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <artifactId>filesecurity-spring-boot-starter</artifactId>
+  <version>1.1.3-SNAPSHOT</version>
 </dependency>
 ~~~
 
@@ -33,5 +33,7 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 [metadata document of spring](https://docs.spring.io/spring-boot/docs/2.1.x/reference/htmlsingle/#configuration-metadata
 )
 
-## push
+## deploy
 > mvn clean package deploy
+
+> mvn deploy
