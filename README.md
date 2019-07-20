@@ -1,5 +1,5 @@
 # filesecurityspringboot
-[![Maven central](https://maven-badges.herokuapp.com/maven-central/org.mybatis.spring.boot/mybatis-spring-boot/badge.svg)](https://search.maven.org/)
+[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)
