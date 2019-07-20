@@ -13,4 +13,12 @@
     <version>1.0.0</version>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>top.huangliusong2019</groupId>
+            <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
 </project>
