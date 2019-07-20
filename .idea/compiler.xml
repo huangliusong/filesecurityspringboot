@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="filesecurity-spring-boot-autoconfigure" />
         <module name="filesecurity-spring-boot-sample-annotation" />
+        <module name="filesecurity-spring-boot-sample-properties" />
         <module name="filesecurity-spring-boot-test-autoconfigure" />
       </profile>
     </annotationProcessing>
