@@ -6,7 +6,11 @@
 
     <groupId>top.huangliusong2019</groupId>
     <artifactId>filesecurity-spring-boot</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>filesecurity-spring-boot-autoconfigure</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
