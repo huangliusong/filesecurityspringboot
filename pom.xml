@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>filesecurity-spring-boot</artifactId>
+    <groupId>top.huangliusong2019</groupId>
     <packaging>pom</packaging>
     <version>1.1.2</version>
 

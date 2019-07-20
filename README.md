@@ -27,3 +27,6 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 ## metadata
 [metadata document of spring](https://docs.spring.io/spring-boot/docs/2.1.x/reference/htmlsingle/#configuration-metadata
 )
+
+## push
+> mvn clean package deploy
