@@ -6,12 +6,12 @@
         <artifactId>filesecurity-spring-boot-samples</artifactId>
         <groupId>top.huangliusong2019</groupId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>filesecurity-spring-boot-sample-properties</artifactId>
     <version>${filesecurity-spring-boot-sample-properties.version}</version>
-
 
     <dependencies>
         <dependency>

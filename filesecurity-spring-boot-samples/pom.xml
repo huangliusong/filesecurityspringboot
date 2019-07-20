@@ -5,13 +5,22 @@
     <parent>
         <artifactId>filesecurity-spring-boot</artifactId>
         <groupId>top.huangliusong2019</groupId>
-        <version>1.1.1</version>
+        <version>1.1.2</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <filesecurity-spring-boot-samples-annotation.version>1.0.0</filesecurity-spring-boot-samples-annotation.version>
+        <filesecurity-spring-boot-test-autoconfigure.version>1.0.0</filesecurity-spring-boot-test-autoconfigure.version>
+    </properties>
+
 
     <artifactId>filesecurity-spring-boot-samples</artifactId>
     <packaging>pom</packaging>
-    <version>${filesecurity-spring-boot-samples.version}</version>
+    <version>1.0.0</version>
+
     <modules>
         <module>filesecurity-spring-boot-sample-annotation</module>
         <module>filesecurity-spring-boot-sample-properties</module>
