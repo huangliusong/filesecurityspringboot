@@ -17,6 +17,15 @@
     </modules>
 
 
+    <properties>
+        <filesecurity.version>1.0.0</filesecurity.version>
+        <filesecurity-spring-boot-autoconfigure.version>1.0.0</filesecurity-spring-boot-autoconfigure.version>
+        <filesecurity-spring-boot-samples.version>1.0.0</filesecurity-spring-boot-samples.version>
+        <filesecurity-spring-boot-starter.version>1.0.0</filesecurity-spring-boot-starter.version>
+        <filesecurity-spring-boot-test-autoconfigure.version>1.0.0</filesecurity-spring-boot-test-autoconfigure.version>
+        <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
+    </properties>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>

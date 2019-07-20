@@ -10,7 +10,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>filesecurity-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>${filesecurity-spring-boot-starter.version}</version>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>top.huangliusong2019</groupId>
+            <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.huangliusong2019</groupId>
+            <artifactId>filesecurity</artifactId>
+        </dependency>
+    </dependencies>
 </project>

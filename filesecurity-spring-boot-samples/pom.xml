@@ -11,7 +11,7 @@
 
     <artifactId>filesecurity-spring-boot-samples</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>${filesecurity-spring-boot-samples.version}</version>
     <modules>
         <module>filesecurity-spring-boot-sample-annotation</module>
         <module>filesecurity-spring-boot-sample-properties</module>
