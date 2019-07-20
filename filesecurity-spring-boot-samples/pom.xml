@@ -16,6 +16,4 @@
         <module>filesecurity-spring-boot-sample-annotation</module>
         <module>filesecurity-spring-boot-sample-properties</module>
     </modules>
-
-
 </project>
