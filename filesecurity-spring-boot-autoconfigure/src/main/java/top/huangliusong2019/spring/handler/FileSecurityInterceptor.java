@@ -26,9 +26,9 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
         Method method = handlerMethod.getMethod();
-        //获取当前方法上的指定注解
+        //Gets the specified annotation on the current method
         FileSecurityAnnotation loggerHLSAnnotation = method.getAnnotation(FileSecurityAnnotation.class);
-        //判断当前注解是否存在
+        //Determine if the current annotation exists
         if (loggerHLSAnnotation != null) {
             long startTime = System.currentTimeMillis();
             request.setAttribute("startTime", startTime);
