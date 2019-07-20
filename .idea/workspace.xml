@@ -6,25 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfigurationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring-autoconfigure-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/annotation/FileSecurityAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/handler/FileSecurityInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/handler/FileSecurityInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/test-classes/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfigurationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/test-classes/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfigurationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/PropEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/controller/PropertiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/controller/AnnotationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/target/classes/top/huangliusong1994/spring/PropEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/target/classes/top/huangliusong1994/spring/controller/PropertiesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/SampleAnnotationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/SamplePropertiesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/controller/PropertiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/controller/PropertiesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/annotation/FileSecurityAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -43,23 +32,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SampleAnnotationApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/SampleAnnotationApplication.java">
+      <file leaf-file-name="FileFilterByte10.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="1255">
+              <caret line="106" column="44" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5729#5730#0" expanded="true" />
+                <element signature="e#5791#5792#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSecurityInterceptor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -83,6 +65,7 @@
       <find>LoggerFactory.getLogger</find>
       <find>离开prop方法的时间</find>
       <find>离开</find>
+      <find>d0cf11e0a1b11ae10000</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -100,7 +83,6 @@
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/Test.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/FileSecurityPropertiesTest.java" />
-        <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfigurationTest.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/SampleAnnotationApplication.java" />
@@ -128,6 +110,11 @@
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/controller/AnnotationController.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/SamplePropertiesApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" />
+        <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilter.java" />
+        <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte6.java" />
+        <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte3.java" />
+        <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java" />
       </list>
     </option>
   </component>
@@ -170,34 +157,25 @@
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -205,12 +183,11 @@
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,6 +217,7 @@
       <recent name="top.huangliusong2019.spring.autoconfigure" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="filesecurity" />
       <recent name="annotation" />
       <recent name="top.huangliusong1994.spring" />
     </key>
@@ -439,7 +417,7 @@
       <updated>1562804818665</updated>
       <workItem from="1562804820099" duration="1791000" />
       <workItem from="1562931579505" duration="10000" />
-      <workItem from="1563584357466" duration="13783000" />
+      <workItem from="1563584357466" duration="15100000" />
     </task>
     <task id="LOCAL-00001" summary="Maven">
       <created>1563588435047</created>
@@ -574,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563596856511</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="拦截器测试成功">
+      <created>1563599870317</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563599870317</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -610,19 +595,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15584000" />
+    <option name="totallyTimeSpent" value="16901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32969698" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -635,11 +621,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3890909" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" sideWeight="0.49928468" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.3369697" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27682403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27682403" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -713,11 +699,12 @@
     <MESSAGE value="filesecurity-spring-boot-sample-properties" />
     <MESSAGE value="Git" />
     <MESSAGE value="change version" />
-    <option name="LAST_COMMIT_MESSAGE" value="change version" />
+    <MESSAGE value="拦截器测试成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="拦截器测试成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -730,27 +717,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.7.RELEASE/spring-boot-1.5.7.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.7.RELEASE/spring-boot-1.5.7.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationBeanFactoryMetaData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/annotation/FileSecurityAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -883,16 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="21" column="19" selection-start-line="15" selection-start-column="3" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,20 +1007,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/SampleAnnotationApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="-1">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+        <state relative-caret-position="100">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/SampleAnnotationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#234#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1255">
+          <caret line="106" column="44" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5729#5730#0" expanded="true" />
+            <element signature="e#5791#5792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

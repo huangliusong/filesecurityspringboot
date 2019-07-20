@@ -3,17 +3,17 @@ package top.huangliusong2019.spring.autoconfigure;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 
 /**
  * Configuration properties for  FileSecurity.
+ * <code>@PropertySource("classpath:application.yml")</code>
  *
  * @author huangliusong
  * @since 2019/7/5
  * {@link ConfigurationProperties}
  * {@link EnableAutoConfiguration Auto-configuration}
+ * {@link Configuration}
  */
-//@PropertySource("classpath:application.yml")
 @Configuration
 @ConfigurationProperties(prefix = FileSecurityProperties.FILE_SECURITY_PREFIX)
 public class FileSecurityProperties {
