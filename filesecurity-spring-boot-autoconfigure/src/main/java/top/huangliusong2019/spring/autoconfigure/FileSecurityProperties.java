@@ -13,7 +13,7 @@ import org.springframework.context.annotation.PropertySource;
  * {@link ConfigurationProperties}
  * {@link EnableAutoConfiguration Auto-configuration}
  */
-@PropertySource("classpath:application.yml")
+//@PropertySource("classpath:application.yml")
 @Configuration
 @ConfigurationProperties(prefix = FileSecurityProperties.FILE_SECURITY_PREFIX)
 public class FileSecurityProperties {
@@ -43,5 +43,13 @@ public class FileSecurityProperties {
 
     public void setUploadPrefixBlackList(String uploadPrefixBlackList) {
         this.uploadPrefixBlackList = uploadPrefixBlackList;
+    }
+
+    @Override
+    public String toString() {
+        return "FileSecurityProperties{" +
+                "uploadPrefixWhiteList='" + uploadPrefixWhiteList + '\'' +
+                ", uploadPrefixBlackList='" + uploadPrefixBlackList + '\'' +
+                '}';
     }
 }
