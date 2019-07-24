@@ -15,3 +15,4 @@ ls
 pwd
 echo ">>>> building filesecurity-spring-boot-autoconfigure    <<<<"
 mvn clean install
+echo "end build the project"
