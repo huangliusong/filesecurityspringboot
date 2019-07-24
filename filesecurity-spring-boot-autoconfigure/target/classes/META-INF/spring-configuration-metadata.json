@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties",
+      "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-prefix-black-list",
+      "type": "java.lang.String",
+      "description": "BlackList",
+      "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
+    },
+    {
+      "name": "file.upload-prefix-white-list",
+      "type": "java.lang.String",
+      "description": "WhiteList",
+      "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
+    }
+  ],
+  "hints": []
+}
