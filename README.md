@@ -37,3 +37,17 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 > mvn clean package deploy
 
 > mvn deploy
+
+## package
+
+~~~
+[INFO] filesecurity-spring-boot ........................... SUCCESS [  0.162 s]
+[INFO] filesecurity ....................................... SUCCESS [  1.708 s]
+[INFO] filesecurity-spring-boot-autoconfigure ............. SUCCESS [  1.945 s]
+[INFO] filesecurity-spring-boot-starter ................... SUCCESS [  0.046 s]
+[INFO] filesecurity-spring-boot-test-autoconfigure ........ SUCCESS [  0.173 s]
+[INFO] filesecurity-spring-boot-samples ................... SUCCESS [  0.002 s]
+[INFO] filesecurity-spring-boot-sample-annotation ......... SUCCESS [  0.199 s]
+[INFO] filesecurity-spring-boot-sample-properties ......... SUCCESS [  0.204 s]
+
+~~~

@@ -1,3 +1,4 @@
 filesecurity/FileFilterByte10.class
+filesecurity/UploadFileBase.class
 annotation/FileSecurityAnnotation.class
 filesecurity/FileFilterByte3.class
