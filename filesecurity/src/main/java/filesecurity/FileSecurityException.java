@@ -3,7 +3,7 @@ package filesecurity;
 /**
  * @author huangliusong
  * @since 2019/7/26
- * {@link }
+ * {@link RuntimeException}
  */
 public class FileSecurityException extends RuntimeException {
     /**

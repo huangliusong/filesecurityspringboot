@@ -20,14 +20,25 @@ public class FileSecurityProperties {
     public static final String FILE_SECURITY_PREFIX = "file";
 
     /**
-     * WhiteList
+     * Upload suffix whitelist
      */
     private String uploadPrefixWhiteList;
-
     /**
-     * BlackList
+     * Upload suffix blacklist
      */
     private String uploadPrefixBlackList;
+    /**
+     * Upload a file, MIME type whitelist
+     */
+    private String uploadMIMEWhiteList;
+    /**
+     * Upload a file MIME, type blacklist
+     */
+    private String uploadMimeBlackList;
+    /**
+     * The  Hash of file  validate value.
+     */
+    private String hashCodeValidate;
 
     public String getUploadPrefixWhiteList() {
         return uploadPrefixWhiteList;
@@ -45,11 +56,43 @@ public class FileSecurityProperties {
         this.uploadPrefixBlackList = uploadPrefixBlackList;
     }
 
+
+    public static String getFileSecurityPrefix() {
+        return FILE_SECURITY_PREFIX;
+    }
+
+    public String getUploadMIMEWhiteList() {
+        return uploadMIMEWhiteList;
+    }
+
+    public void setUploadMIMEWhiteList(String uploadMIMEWhiteList) {
+        this.uploadMIMEWhiteList = uploadMIMEWhiteList;
+    }
+
+    public String getUploadMimeBlackList() {
+        return uploadMimeBlackList;
+    }
+
+    public void setUploadMimeBlackList(String uploadMimeBlackList) {
+        this.uploadMimeBlackList = uploadMimeBlackList;
+    }
+
+    public String getHashCodeValidate() {
+        return hashCodeValidate;
+    }
+
+    public void setHashCodeValidate(String hashCodeValidate) {
+        this.hashCodeValidate = hashCodeValidate;
+    }
+
     @Override
     public String toString() {
         return "FileSecurityProperties{" +
                 "uploadPrefixWhiteList='" + uploadPrefixWhiteList + '\'' +
                 ", uploadPrefixBlackList='" + uploadPrefixBlackList + '\'' +
+                ", uploadMIMEWhiteList='" + uploadMIMEWhiteList + '\'' +
+                ", uploadMimeBlackList='" + uploadMimeBlackList + '\'' +
+                ", hashCodeValidate='" + hashCodeValidate + '\'' +
                 '}';
     }
 }

@@ -1,6 +1,7 @@
 package top.huangliusong2019.spring.handler;
 
 import annotation.FileSecurityAnnotation;
+import filesecurity.UploadFileBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;
@@ -9,9 +10,11 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import org.springframework.web.util.WebUtils;
+import top.huangliusong2019.spring.autoconfigure.FileSecurityProperties;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 /**
@@ -27,7 +30,11 @@ import java.lang.reflect.Method;
 public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
     private Logger logger = LoggerFactory.getLogger(FileSecurityInterceptor.class);
 
+    private final FileSecurityProperties fileSecurityProperties;
 
+    public FileSecurityInterceptor(FileSecurityProperties fileSecurityProperties) {
+        this.fileSecurityProperties = fileSecurityProperties;
+    }
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
@@ -37,8 +44,11 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
         //if the current annotation exists
         if (loggerHLSAnnotation != null) {
             MultipartHttpServletRequest multipartHttpServletRequest = WebUtils.getNativeRequest(request, MultipartHttpServletRequest.class);
+            logger.info("fileSecurityProperties={}", fileSecurityProperties);
             MultipartFile multipartFile = multipartHttpServletRequest.getFile("file");
             String filename = multipartFile.getOriginalFilename();
+            //TODO hashcode unfinished
+            checkingFile(multipartFile, "");
             logger.info("filename={}", filename);
             long startTime = System.currentTimeMillis();
             request.setAttribute("startTime", startTime);
@@ -62,6 +72,26 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
             logger.info("Leave the method of name={},Leave the time={}", method.getName(), endTime);
             logger.info(" In method ={},Time consuming={}", method.getName(), periodTime);
         }
+
+    }
+
+    private void checkingFile(MultipartFile multipartFile, String hashCode) {
+        String prefix = multipartFile.getOriginalFilename().
+                substring(multipartFile.getOriginalFilename().
+                        lastIndexOf(".") + 1);
+        UploadFileBase uploadFileBase = new UploadFileBase(
+                fileSecurityProperties.getUploadPrefixWhiteList(),
+                fileSecurityProperties.getUploadPrefixBlackList(),
+                fileSecurityProperties.getUploadMIMEWhiteList(),
+                fileSecurityProperties.getUploadMimeBlackList(),
+                fileSecurityProperties.getHashCodeValidate());
+        try {
+            uploadFileBase.checkFile(multipartFile.getContentType(), prefix, hashCode, multipartFile.getBytes());
+        } catch (IOException e) {
+            logger.error("[Check file error,IO Exception]>>e.message={}", e.getMessage());
+            e.printStackTrace();
+        }
+
 
     }
 }
