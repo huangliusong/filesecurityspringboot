@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = FileSecurityProperties.FILE_SECURITY_PREFIX)
 public class FileSecurityProperties {
-    public static final String FILE_SECURITY_PREFIX = "file";
+    static final String FILE_SECURITY_PREFIX = "file";
 
     /**
      * Upload suffix whitelist
