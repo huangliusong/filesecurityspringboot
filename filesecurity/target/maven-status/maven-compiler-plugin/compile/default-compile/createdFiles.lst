@@ -1,4 +1,6 @@
+filesecurity/ErrorCode.class
 filesecurity/FileFilterByte10.class
 filesecurity/UploadFileBase.class
+filesecurity/FileSecurityException.class
 annotation/FileSecurityAnnotation.class
 filesecurity/FileFilterByte3.class

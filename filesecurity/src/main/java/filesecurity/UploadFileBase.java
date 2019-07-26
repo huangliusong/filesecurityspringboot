@@ -2,6 +2,7 @@ package filesecurity;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.StringUtils;
 
 /**
  * @author huangliusong
@@ -122,13 +123,21 @@ public class UploadFileBase {
 
         //Black List
         logger.info("[File's prefix,Black List validation]>>prefix={}", prefix);
-        String[] blackList = uploadPrefixBlackList.split(",");
-        for (String blackName : blackList) {
-            if (prefix.equals(blackName)) {
-                return false;
+        if (!StringUtils.isEmpty(uploadPrefixBlackList)) {
+            logger.info("[Your had config uploadPrefixBlackList]>>uploadPrefixBlackList={}", uploadPrefixBlackList);
+            String[] blackList = uploadPrefixBlackList.split(",");
+            for (String blackName : blackList) {
+                if (prefix.equals(blackName)) {
+                    return false;
+                }
             }
         }
         //White List
+        if (StringUtils.isEmpty(uploadPrefixWhiteList)) {
+            logger.info("[Not config uploadPrefixWhiteList,please check your application.yml/application.properties]>>uploadPrefixWhiteList={}", uploadPrefixWhiteList);
+            return true;
+        }
+
         logger.info("[File's prefix,White List validation]>>prefix={}", prefix);
         String[] whiteList = uploadPrefixWhiteList.split(",");
         for (String whiteName : whiteList) {

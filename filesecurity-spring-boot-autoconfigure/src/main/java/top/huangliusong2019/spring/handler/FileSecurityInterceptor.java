@@ -67,7 +67,7 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
         //if the current annotation exists
         if (loggerHLSAnnotation != null) {
             long endTime = System.currentTimeMillis();
-            long startTime = (Long) request.getAttribute("startTime");
+            long startTime = (Long) request.getAttribute("StartTime");
             long periodTime = endTime - startTime;
             logger.info("Leave the method of name={},Leave the time={}", method.getName(), endTime);
             logger.info(" In method ={},Time consuming={}", method.getName(), periodTime);
@@ -79,6 +79,7 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
         String prefix = multipartFile.getOriginalFilename().
                 substring(multipartFile.getOriginalFilename().
                         lastIndexOf(".") + 1);
+        logger.info("[MultipartFile]>>>prefix", prefix);
         UploadFileBase uploadFileBase = new UploadFileBase(
                 fileSecurityProperties.getUploadPrefixWhiteList(),
                 fileSecurityProperties.getUploadPrefixBlackList(),

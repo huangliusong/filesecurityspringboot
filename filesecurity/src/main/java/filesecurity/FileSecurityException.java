@@ -16,7 +16,7 @@ public class FileSecurityException extends RuntimeException {
     private String msg;
 
     FileSecurityException(ErrorCode errorCode) {
-        super();
+        super(errorCode.getMsg());
         this.code = errorCode.getCode();
         this.msg = errorCode.getMsg();
     }
