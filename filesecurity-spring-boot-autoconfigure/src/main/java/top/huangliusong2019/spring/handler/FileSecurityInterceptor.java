@@ -75,6 +75,12 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
 
     }
 
+    /**
+     * Call UploadFileBase to check MultipartFile
+     *
+     * @param multipartFile file
+     * @param hashCode      hash value
+     */
     private void checkingFile(MultipartFile multipartFile, String hashCode) {
         String prefix = multipartFile.getOriginalFilename().
                 substring(multipartFile.getOriginalFilename().
@@ -92,7 +98,6 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
             logger.error("[Check file error,IO Exception]>>e.message={}", e.getMessage());
             e.printStackTrace();
         }
-
 
     }
 }
