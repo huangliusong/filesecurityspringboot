@@ -1,6 +1,2 @@
-top/huangliusong2019/spring/handler/FileSecurityInterceptor.class
-META-INF/spring-configuration-metadata.json
-top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.class
-top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.class
 META-INF/spring-autoconfigure-metadata.properties
-top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.class
+META-INF/spring-configuration-metadata.json

@@ -47,11 +47,11 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
             logger.info("fileSecurityProperties={}", fileSecurityProperties);
             MultipartFile multipartFile = multipartHttpServletRequest.getFile("file");
             String filename = multipartFile.getOriginalFilename();
-            //TODO hashcode unfinished
+            //TODO Hashcode Unfinished
             checkingFile(multipartFile, "");
-            logger.info("filename={}", filename);
+            logger.info("Filename={}", filename);
             long startTime = System.currentTimeMillis();
-            request.setAttribute("startTime", startTime);
+            request.setAttribute("StartTime", startTime);
             logger.info("Enter the method of name={},Enter the time={}ms", method.getName(), +startTime);
         }
 

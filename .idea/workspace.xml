@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring-autoconfigure-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/handler/FileSecurityInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/handler/FileSecurityInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/filesecurity-spring-boot-autoconfigure-1.1.2.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/filesecurity-spring-boot-autoconfigure-1.1.2.SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/TEST-top.huangliusong2019.spring.autoconfigure.FileSecurityAutoConfigurationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/TEST-top.huangliusong2019.spring.autoconfigure.FileSecurityAutoConfigurationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/TEST-top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/TEST-top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/top.huangliusong2019.spring.autoconfigure.FileSecurityAutoConfigurationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/top.huangliusong2019.spring.autoconfigure.FileSecurityAutoConfigurationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/surefire-reports/top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileSecurityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileSecurityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/UploadFileBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/UploadFileBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -65,8 +54,8 @@
       <file leaf-file-name="FileSecurityInterceptor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+            <state relative-caret-position="-314">
+              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -642,7 +631,7 @@
       <workItem from="1563959610254" duration="2077000" />
       <workItem from="1564014917184" duration="3020000" />
       <workItem from="1564107016667" duration="2288000" />
-      <workItem from="1564147368393" duration="2195000" />
+      <workItem from="1564147368393" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="Maven">
       <created>1563588435047</created>
@@ -917,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564108693205</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="upfindshed">
+      <created>1564149746507</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1564149746507</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -953,7 +949,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45029000" />
+    <option name="totallyTimeSpent" value="45186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -981,8 +977,8 @@
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.4848485" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="9" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" weight="0.40363637" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22532189" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.27636364" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22532189" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
@@ -1044,7 +1040,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="properties controller test" />
     <MESSAGE value="test controller" />
     <MESSAGE value="filesecurity-spring-boot-sample-properties" />
     <MESSAGE value="Git" />
@@ -1069,7 +1064,8 @@
     <MESSAGE value="end build the project" />
     <MESSAGE value="[INFO] filesecurity-spring-boot ........................... SUCCESS [  0.162 s]&#10;[INFO] filesecurity ....................................... SUCCESS [  1.708 s]&#10;[INFO] filesecurity-spring-boot-autoconfigure ............. SUCCESS [  1.945 s]&#10;[INFO] filesecurity-spring-boot-starter ................... SUCCESS [  0.046 s]&#10;[INFO] filesecurity-spring-boot-test-autoconfigure ........ SUCCESS [  0.173 s]&#10;[INFO] filesecurity-spring-boot-samples ................... SUCCESS [  0.002 s]&#10;[INFO] filesecurity-spring-boot-sample-annotation ......... SUCCESS [  0.199 s]&#10;[INFO] filesecurity-spring-boot-sample-properties ......... SUCCESS [  0.204 s]" />
     <MESSAGE value="check file type&#10;check file MIME" />
-    <option name="LAST_COMMIT_MESSAGE" value="check file type&#10;check file MIME" />
+    <MESSAGE value="upfindshed" />
+    <option name="LAST_COMMIT_MESSAGE" value="upfindshed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1458,8 +1454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        <state relative-caret-position="-314">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

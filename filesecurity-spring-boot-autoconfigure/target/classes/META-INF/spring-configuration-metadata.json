@@ -8,15 +8,33 @@
   ],
   "properties": [
     {
+      "name": "file.hash-code-validate",
+      "type": "java.lang.String",
+      "description": "The  Hash of file  validate value.",
+      "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
+    },
+    {
+      "name": "file.upload-m-i-m-e-white-list",
+      "type": "java.lang.String",
+      "description": "Upload a file, MIME type whitelist",
+      "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
+    },
+    {
+      "name": "file.upload-mime-black-list",
+      "type": "java.lang.String",
+      "description": "Upload a file MIME, type blacklist",
+      "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
+    },
+    {
       "name": "file.upload-prefix-black-list",
       "type": "java.lang.String",
-      "description": "BlackList",
+      "description": "Upload suffix blacklist",
       "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
     },
     {
       "name": "file.upload-prefix-white-list",
       "type": "java.lang.String",
-      "description": "WhiteList",
+      "description": "Upload suffix whitelist",
       "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
     }
   ],

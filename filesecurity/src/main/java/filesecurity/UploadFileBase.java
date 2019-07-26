@@ -7,35 +7,51 @@ import org.slf4j.LoggerFactory;
  * @author huangliusong
  * @since 2019/7/24
  * {@link LoggerFactory}
+ * {@link Logger}
  */
 public class UploadFileBase {
     private static final Logger logger = LoggerFactory.getLogger(UploadFileBase.class);
-
     /**
      * Upload suffix whitelist
      */
     private String uploadPrefixWhiteList;
-
     /**
      * Upload suffix blacklist
      */
     private String uploadPrefixBlackList;
-
     /**
      * Upload a file, MIME type whitelist
      */
     private String uploadMIMEWhiteList;
-
     /**
      * Upload a file MIME, type blacklist
      */
     private String uploadMimeBlackList;
-
     /**
      * The  Hash of file  validate value.
      */
     private String hashCodeValidate;
 
+    public UploadFileBase(String uploadPrefixWhiteList,
+                          String uploadPrefixBlackList,
+                          String uploadMIMEWhiteList,
+                          String uploadMimeBlackList,
+                          String hashCodeValidate) {
+        this.uploadPrefixWhiteList = uploadPrefixWhiteList;
+        this.uploadPrefixBlackList = uploadPrefixBlackList;
+        this.uploadMIMEWhiteList = uploadMIMEWhiteList;
+        this.uploadMimeBlackList = uploadMimeBlackList;
+        this.hashCodeValidate = hashCodeValidate;
+    }
+
+    /**
+     * check file
+     *
+     * @param contentType contentType
+     * @param prefix      prefix
+     * @param hashCode    hash value
+     * @param fileBytes   file
+     */
     public void checkFile(String contentType, String prefix, String hashCode, byte[] fileBytes) {
         logger.info("check file's MIME");
         if (!checkFileMIME(contentType)) {
@@ -63,7 +79,7 @@ public class UploadFileBase {
      * @return or not
      */
     private boolean checkFileDigest(byte[] fileBytes, String hashCode) {
-
+        logger.info("[File value of Hash code ]>>hashCodeValidate={}", hashCodeValidate);
         return false;
     }
 
@@ -74,7 +90,24 @@ public class UploadFileBase {
      * @return or not
      */
     private boolean checkFileMIME(String contentType) {
+        contentType = contentType.toLowerCase();
 
+        //Black List
+        logger.info("[File's MIME,Black List validation]>>contentType={}", contentType);
+        String[] blackList = uploadMimeBlackList.split(",");
+        for (String blackName : blackList) {
+            if (contentType.equals(blackName)) {
+                return false;
+            }
+        }
+        //White List
+        logger.info("[File's MIME,White List validation]>>contentType={}", contentType);
+        String[] whiteList = uploadMIMEWhiteList.split(",");
+        for (String whiteName : whiteList) {
+            if (contentType.equals(whiteName)) {
+                return true;
+            }
+        }
         return false;
     }
 
@@ -97,7 +130,7 @@ public class UploadFileBase {
         }
         //White List
         logger.info("[File's prefix,White List validation]>>prefix={}", prefix);
-        String[] whiteList = uploadPrefixBlackList.split(",");
+        String[] whiteList = uploadPrefixWhiteList.split(",");
         for (String whiteName : whiteList) {
             if (prefix.equals(whiteName)) {
                 return true;
