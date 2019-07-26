@@ -6,7 +6,7 @@ package filesecurity;
  */
 public enum ErrorCode {
     /**
-     * error
+     * ERROR
      */
     ERROR("1", "error"),
     /**
