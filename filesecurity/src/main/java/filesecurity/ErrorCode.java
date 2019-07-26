@@ -9,6 +9,9 @@ public enum ErrorCode {
      * error
      */
     ERROR("1", "error"),
+    /**
+     * MIME of file type is not support
+     */
     MIME_FILE_TYPE_ERROR("1001","MIME of file type is not support");
     ;
     /**

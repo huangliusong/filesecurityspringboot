@@ -11,7 +11,7 @@ import java.util.HashMap;
  *
  * @author huangliusong
  * @since 2019/7/20
- * {@link }
+ * {@link HashMap}
  */
 public class FileFilterByte3 {
     private static final HashMap<String, String> mFileTypes = new HashMap<String, String>();
