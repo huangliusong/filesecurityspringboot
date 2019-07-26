@@ -32,9 +32,22 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
 
     private final FileSecurityProperties fileSecurityProperties;
 
+    /**
+     * init properties
+     *
+     * @param fileSecurityProperties properties
+     */
     public FileSecurityInterceptor(FileSecurityProperties fileSecurityProperties) {
         this.fileSecurityProperties = fileSecurityProperties;
     }
+
+    /**
+     * @param request  request
+     * @param response response
+     * @param handler  handler
+     * @return boolean
+     * @throws Exception e
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
@@ -58,6 +71,15 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
         return true;
     }
 
+    /**
+     * Post handle
+     *
+     * @param request      request
+     * @param response     response
+     * @param handler      handler
+     * @param modelAndView modelAndView
+     * @throws Exception e
+     */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;

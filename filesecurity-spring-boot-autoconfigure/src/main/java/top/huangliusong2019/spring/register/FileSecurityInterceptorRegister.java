@@ -30,11 +30,21 @@ public class FileSecurityInterceptorRegister implements WebMvcConfigurer {
     private FileSecurityProperties fileSecurityProperties;
 
 
+    /**
+     * Autowired bean
+     *
+     * @return FileSecurityInterceptor
+     */
     @Bean
     public FileSecurityInterceptor fileSecurityInterceptor() {
         return new FileSecurityInterceptor(fileSecurityProperties);
     }
 
+    /**
+     * Add Interceptors
+     *
+     * @param registry register
+     */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(fileSecurityInterceptor());
