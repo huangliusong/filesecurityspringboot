@@ -22,11 +22,11 @@ public class FileSecurityProperties {
     /**
      * Upload suffix whitelist
      */
-    private String uploadPrefixWhiteList;
+    private String uploadSuffixWhiteList;
     /**
      * Upload suffix blacklist
      */
-    private String uploadPrefixBlackList;
+    private String uploadSuffixBlackList;
     /**
      * Upload a file, MIME type whitelist
      */
@@ -40,25 +40,24 @@ public class FileSecurityProperties {
      */
     private String hashCodeValidate;
 
-    public String getUploadPrefixWhiteList() {
-        return uploadPrefixWhiteList;
-    }
-
-    public void setUploadPrefixWhiteList(String uploadPrefixWhiteList) {
-        this.uploadPrefixWhiteList = uploadPrefixWhiteList;
-    }
-
-    public String getUploadPrefixBlackList() {
-        return uploadPrefixBlackList;
-    }
-
-    public void setUploadPrefixBlackList(String uploadPrefixBlackList) {
-        this.uploadPrefixBlackList = uploadPrefixBlackList;
-    }
-
-
     public static String getFileSecurityPrefix() {
         return FILE_SECURITY_PREFIX;
+    }
+
+    public String getUploadSuffixWhiteList() {
+        return uploadSuffixWhiteList;
+    }
+
+    public void setUploadSuffixWhiteList(String uploadSuffixWhiteList) {
+        this.uploadSuffixWhiteList = uploadSuffixWhiteList;
+    }
+
+    public String getUploadSuffixBlackList() {
+        return uploadSuffixBlackList;
+    }
+
+    public void setUploadSuffixBlackList(String uploadSuffixBlackList) {
+        this.uploadSuffixBlackList = uploadSuffixBlackList;
     }
 
     public String getUploadMIMEWhiteList() {
@@ -88,8 +87,8 @@ public class FileSecurityProperties {
     @Override
     public String toString() {
         return "FileSecurityProperties{" +
-                "uploadPrefixWhiteList='" + uploadPrefixWhiteList + '\'' +
-                ", uploadPrefixBlackList='" + uploadPrefixBlackList + '\'' +
+                "uploadSuffixWhiteList='" + uploadSuffixWhiteList + '\'' +
+                ", uploadSuffixBlackList='" + uploadSuffixBlackList + '\'' +
                 ", uploadMIMEWhiteList='" + uploadMIMEWhiteList + '\'' +
                 ", uploadMimeBlackList='" + uploadMimeBlackList + '\'' +
                 ", hashCodeValidate='" + hashCodeValidate + '\'' +
