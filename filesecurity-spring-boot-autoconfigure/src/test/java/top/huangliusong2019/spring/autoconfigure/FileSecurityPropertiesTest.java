@@ -30,10 +30,10 @@ public class FileSecurityPropertiesTest {
         logger.info("Testing");
         FileSecurityProperties properties = new FileSecurityProperties();
         properties
-                .setUploadPrefixWhiteList(".exe,.html,.php");
-        properties.setUploadPrefixBlackList(".exe,.html,.php");
+                .setUploadSuffixWhiteList(".exe,.html,.php");
+        properties.setUploadSuffixBlackList(".exe,.html,.php");
         Assert.assertNotNull(properties);
-        Assert.assertNotNull(properties.getUploadPrefixWhiteList());
-        Assert.assertNotNull(properties.getUploadPrefixBlackList());
+        Assert.assertNotNull(properties.getUploadSuffixWhiteList());
+        Assert.assertNotNull(properties.getUploadSuffixBlackList());
     }
 }

@@ -103,18 +103,18 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
      * @param hashCode      hash value
      */
     private void checkingFile(MultipartFile multipartFile, String hashCode) {
-        String prefix = multipartFile.getOriginalFilename().
+        String suffix = multipartFile.getOriginalFilename().
                 substring(multipartFile.getOriginalFilename().
                         lastIndexOf(".") + 1);
-        logger.info("[MultipartFile]>>>prefix", prefix);
+        logger.info("[MultipartFile]>>>suffix", suffix);
         UploadFileBase uploadFileBase = new UploadFileBase(
-                fileSecurityProperties.getUploadPrefixWhiteList(),
-                fileSecurityProperties.getUploadPrefixBlackList(),
+                fileSecurityProperties.getUploadSuffixWhiteList(),
+                fileSecurityProperties.getUploadSuffixBlackList(),
                 fileSecurityProperties.getUploadMIMEWhiteList(),
                 fileSecurityProperties.getUploadMimeBlackList(),
                 fileSecurityProperties.getHashCodeValidate());
         try {
-            uploadFileBase.checkFile(multipartFile.getContentType(), prefix, hashCode, multipartFile.getBytes());
+            uploadFileBase.checkFile(multipartFile.getContentType(), suffix, hashCode, multipartFile.getBytes());
         } catch (IOException e) {
             logger.error("[Check file error,IO Exception]>>e.message={}", e.getMessage());
             e.printStackTrace();

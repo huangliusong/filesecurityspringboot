@@ -26,13 +26,13 @@
       "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
     },
     {
-      "name": "file.upload-prefix-black-list",
+      "name": "file.upload-suffix-black-list",
       "type": "java.lang.String",
       "description": "Upload suffix blacklist",
       "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"
     },
     {
-      "name": "file.upload-prefix-white-list",
+      "name": "file.upload-suffix-white-list",
       "type": "java.lang.String",
       "description": "Upload suffix whitelist",
       "sourceType": "top.huangliusong2019.spring.autoconfigure.FileSecurityProperties"

@@ -40,10 +40,6 @@ public class FileSecurityProperties {
      */
     private String hashCodeValidate;
 
-    public static String getFileSecurityPrefix() {
-        return FILE_SECURITY_PREFIX;
-    }
-
     public String getUploadSuffixWhiteList() {
         return uploadSuffixWhiteList;
     }

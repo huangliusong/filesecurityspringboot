@@ -1,6 +1,6 @@
 file:
-  upload-prefix-black-list: ".exe"
-  #upload-prefix-white-list: ""
   uploadMIMEWhiteList: "image/jpeg"
   uploadMimeBlackList: ""
-  hashCodeValidate: "C2869B96B3EB2572EC9E7574878B4E20"
+  hashCodeValidate: "MD5"
+  upload-suffix-black-list: ""
+  upload-suffix-white-list: ""
