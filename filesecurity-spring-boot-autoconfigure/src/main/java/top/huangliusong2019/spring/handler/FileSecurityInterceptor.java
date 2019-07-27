@@ -28,14 +28,13 @@ import java.lang.reflect.Method;
  * {@link FileSecurityAnnotation}
  */
 public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
+    private final FileSecurityProperties fileSecurityProperties;
     private Logger logger = LoggerFactory.getLogger(FileSecurityInterceptor.class);
 
-    private final FileSecurityProperties fileSecurityProperties;
-
     /**
-     * init properties
+     * Init properties
      *
-     * @param fileSecurityProperties properties
+     * @param fileSecurityProperties properties,FileSecurityProperties
      */
     public FileSecurityInterceptor(FileSecurityProperties fileSecurityProperties) {
         this.fileSecurityProperties = fileSecurityProperties;
