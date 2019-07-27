@@ -2,7 +2,9 @@
 ## 介绍
 文件上传拦截，对文件上传进行安全性校验，拦截文件上传后缀，根据文件头前几位二进制判断文件类型，根据文件MIME类型拦截，开启文件上传校验，校验文件哈希值，只需一个注解即可完成！开箱即用！
 
-## 快速开始
+# 快速开始
+
+## 添加依赖
 ~~~
 <dependency>
   <groupId>top.huangliusong2019</groupId>
@@ -11,6 +13,16 @@
 </dependency>
 ~~~
 filesecurity-spring-boot-starter已上传到maven仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。
+
+
+## 添加注解
+~~~
+    @FileSecurityAnnotation
+    @PostMapping("/file")
+    public String starter(@RequestParam("file") MultipartFile file) {
+        return "success";
+    }
+~~~
 
 ## 自定义配置
 ~~~
