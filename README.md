@@ -7,9 +7,7 @@
 ![](./doc/secutity1.png)
 
 # 文档(Document)
-[中文](./doc/cn_doc_index.md) 
-
-[EN](./doc/en_doc_index.md)
+[中文](./doc/cn_doc_index.md)  |  [EN](./doc/en_doc_index.md)
 
 ## top.huangliusong2019
 file-security-spring-boot  will help you use file-security with Spring Boot

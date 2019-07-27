@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
+    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="sec">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -73,12 +73,22 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="171">
+                <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Security_level.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/Security_level.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="security2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/security2.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -565,21 +575,7 @@
       <workItem from="1564147368393" duration="7744000" />
       <workItem from="1564182610571" duration="572000" />
       <workItem from="1564183192305" duration="659000" />
-      <workItem from="1564228867668" duration="2922000" />
-    </task>
-    <task id="LOCAL-00018" summary="Git">
-      <created>1563596160531</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1563596160531</updated>
-    </task>
-    <task id="LOCAL-00019" summary="change version">
-      <created>1563596856511</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1563596856511</updated>
+      <workItem from="1564228867668" duration="3199000" />
     </task>
     <task id="LOCAL-00020" summary="拦截器测试成功">
       <created>1563599870317</created>
@@ -910,7 +906,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564243877493</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="![](./doc/Security_level.png)">
+      <created>1564243957377</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1564243957377</updated>
+    </task>
+    <task id="LOCAL-00068" summary="sec">
+      <created>1564244154326</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1564244154326</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -946,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54731000" />
+    <option name="totallyTimeSpent" value="55008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1046,8 +1056,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[INFO] filesecurity-spring-boot ........................... SUCCESS [  0.162 s]&#10;[INFO] filesecurity ....................................... SUCCESS [  1.708 s]&#10;[INFO] filesecurity-spring-boot-autoconfigure ............. SUCCESS [  1.945 s]&#10;[INFO] filesecurity-spring-boot-starter ................... SUCCESS [  0.046 s]&#10;[INFO] filesecurity-spring-boot-test-autoconfigure ........ SUCCESS [  0.173 s]&#10;[INFO] filesecurity-spring-boot-samples ................... SUCCESS [  0.002 s]&#10;[INFO] filesecurity-spring-boot-sample-annotation ......... SUCCESS [  0.199 s]&#10;[INFO] filesecurity-spring-boot-sample-properties ......... SUCCESS [  0.204 s]" />
-    <MESSAGE value="check file type&#10;check file MIME" />
     <MESSAGE value="upfindshed" />
     <MESSAGE value="return message to exception" />
     <MESSAGE value="###" />
@@ -1071,7 +1079,9 @@
     <MESSAGE value="   ___ _____    ___ &#10;  /   |  _  |  /   |&#10; / /| | |/' | / /| |&#10;/ /_| |  /| |/ /_| |&#10;\___  \ |_/ /\___  |&#10;    |_/\___/     |_/" />
     <MESSAGE value="security png" />
     <MESSAGE value="Security_level.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="Security_level.png" />
+    <MESSAGE value="![](./doc/Security_level.png)" />
+    <MESSAGE value="sec" />
+    <option name="LAST_COMMIT_MESSAGE" value="sec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1103,20 +1113,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="953" column="27" selection-start-line="953" selection-start-column="27" selection-end-line="953" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/FileSecurityPropertiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/annotation/FileSecurityAnnotation.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1457,11 +1453,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Security_level.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/security2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
