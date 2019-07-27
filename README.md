@@ -14,7 +14,7 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 * Spring Boot 1.5.7+
 * Maven 3.3.9+
 
-## Quick Start
+## Quick Start(out-of-the-box)
 
 ~~~
 <dependency>

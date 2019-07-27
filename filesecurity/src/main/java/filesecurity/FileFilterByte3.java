@@ -14,52 +14,64 @@ import java.util.HashMap;
  * {@link HashMap}
  */
 public class FileFilterByte3 {
-    private static final HashMap<String, String> mFileTypes = new HashMap<String, String>();
+    private static final HashMap<String, String> HEADER_FILE_TYPES = new HashMap<String, String>();
+    private static final Integer FILE_LENGTH = 4;
 
-    // judge file type by Three bytes to judge
+    /**
+     * judge file type by Three bytes to judge
+     */
     static {
         //images
-        mFileTypes.put("FFD8FF", "jpg");
-        mFileTypes.put("89504E47", "png");
-        mFileTypes.put("47494638", "gif");
-        mFileTypes.put("49492A00", "tif");
-        mFileTypes.put("424D", "bmp");
+        HEADER_FILE_TYPES.put("FFD8FF", "jpg");
+        HEADER_FILE_TYPES.put("89504E47", "png");
+        HEADER_FILE_TYPES.put("47494638", "gif");
+        HEADER_FILE_TYPES.put("49492A00", "tif");
+        HEADER_FILE_TYPES.put("424D", "bmp");
         //CAD
-        mFileTypes.put("41433130", "dwg");
-        mFileTypes.put("38425053", "psd");
+        HEADER_FILE_TYPES.put("41433130", "dwg");
+        HEADER_FILE_TYPES.put("38425053", "psd");
         //日记本
-        mFileTypes.put("7B5C727466", "rtf");
-        mFileTypes.put("3C3F786D6C", "xml");
-        mFileTypes.put("68746D6C3E", "html");
-        //邮件
-        mFileTypes.put("44656C69766572792D646174653A", "eml");
-        mFileTypes.put("D0CF11E0", "doc");
-        mFileTypes.put("5374616E64617264204A", "mdb");
-        mFileTypes.put("252150532D41646F6265", "ps");
-        mFileTypes.put("255044462D312E", "pdf");
-        mFileTypes.put("504B0304", "zip");
-        mFileTypes.put("52617221", "rar");
-        mFileTypes.put("57415645", "wav");
-        mFileTypes.put("41564920", "avi");
-        mFileTypes.put("2E524D46", "rm");
-        mFileTypes.put("000001BA", "mpg");
-        mFileTypes.put("000001B3", "mpg");
-        mFileTypes.put("6D6F6F76", "mov");
-        mFileTypes.put("3026B2758E66CF11", "asf");
-        mFileTypes.put("4D546864", "mid");
-        mFileTypes.put("1F8B08", "gz");
-        mFileTypes.put("", "");
+        HEADER_FILE_TYPES.put("7B5C727466", "rtf");
+        HEADER_FILE_TYPES.put("3C3F786D6C", "xml");
+        HEADER_FILE_TYPES.put("68746D6C3E", "html");
+        //email
+        HEADER_FILE_TYPES.put("44656C69766572792D646174653A", "eml");
+        HEADER_FILE_TYPES.put("D0CF11E0", "doc");
+        HEADER_FILE_TYPES.put("5374616E64617264204A", "mdb");
+        HEADER_FILE_TYPES.put("252150532D41646F6265", "ps");
+        HEADER_FILE_TYPES.put("255044462D312E", "pdf");
+        HEADER_FILE_TYPES.put("504B0304", "zip");
+        HEADER_FILE_TYPES.put("52617221", "rar");
+        HEADER_FILE_TYPES.put("57415645", "wav");
+        HEADER_FILE_TYPES.put("41564920", "avi");
+        HEADER_FILE_TYPES.put("2E524D46", "rm");
+        HEADER_FILE_TYPES.put("000001BA", "mpg");
+        HEADER_FILE_TYPES.put("000001B3", "mpg");
+        HEADER_FILE_TYPES.put("6D6F6F76", "mov");
+        HEADER_FILE_TYPES.put("3026B2758E66CF11", "asf");
+        HEADER_FILE_TYPES.put("4D546864", "mid");
+        HEADER_FILE_TYPES.put("1F8B08", "gz");
+        HEADER_FILE_TYPES.put("", "");
     }
 
 
+    /**
+     * @param filePath filePath
+     * @return String
+     */
     public static String getFileType(String filePath) {
-        return mFileTypes.get(getFileHeader(filePath));
+        return HEADER_FILE_TYPES.get(getFileHeader(filePath));
     }
 
-    //获取文件头信息
-    public static String getFileHeader(String filePath) {
+    /**
+     * 获取文件头信息
+     *
+     * @param filePath filePath
+     * @return String
+     */
+    private static String getFileHeader(String filePath) {
         File file = new File(filePath);
-        if (!file.exists() || file.length() < 4) {
+        if (!file.exists() || file.length() < FILE_LENGTH) {
             return "null";
         }
         FileInputStream is = null;
@@ -67,14 +79,19 @@ public class FileFilterByte3 {
         try {
             is = new FileInputStream(file);
             byte[] b = new byte[3];
-            is.read(b, 0, b.length);
+            int result = is.read(b, 0, b.length);
+            if (result == 1) {
+                System.out.println(result);
+            }
             value = bytesToHexString(b);
         } catch (Exception e) {
+            e.printStackTrace();
         } finally {
             if (null != is) {
                 try {
                     is.close();
                 } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
         }
