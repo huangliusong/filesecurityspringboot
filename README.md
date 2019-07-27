@@ -5,7 +5,7 @@
 [![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)
 
 # 文档(Document)
-[中文文档](./doc/cn_doc_index.md) 
+[中文](./doc/cn_doc_index.md) 
 
 [EN DOC](./doc/en_doc_index.md)
 
