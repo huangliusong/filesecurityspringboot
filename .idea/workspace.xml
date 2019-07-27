@@ -4,9 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="sec">
+    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/cn_doc_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/cn_doc_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/en_doc_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/en_doc_index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -43,52 +44,36 @@
         <entry file="file://$PROJECT_DIR$/doc/en_doc_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="228">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+      <file leaf-file-name="cn_doc_index.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/cn_doc_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <first_editor>
+                <caret selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Security_level.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/Security_level.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="security2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/security2.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -189,9 +174,9 @@
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte3.java" />
-        <option value="$PROJECT_DIR$/doc/cn_doc_index.md" />
-        <option value="$PROJECT_DIR$/doc/en_doc_index.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/en_doc_index.md" />
+        <option value="$PROJECT_DIR$/doc/cn_doc_index.md" />
       </list>
     </option>
   </component>
@@ -314,6 +299,15 @@
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
               <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,6 +333,33 @@
               <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
@@ -575,21 +596,7 @@
       <workItem from="1564147368393" duration="7744000" />
       <workItem from="1564182610571" duration="572000" />
       <workItem from="1564183192305" duration="659000" />
-      <workItem from="1564228867668" duration="3199000" />
-    </task>
-    <task id="LOCAL-00020" summary="拦截器测试成功">
-      <created>1563599870317</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1563599870317</updated>
-    </task>
-    <task id="LOCAL-00021" summary=" mFileTypes.put(&quot;d0cf11e0a1b11ae10000&quot;, &quot;vsd&quot;);">
-      <created>1563601135326</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1563601135326</updated>
+      <workItem from="1564228867668" duration="3428000" />
     </task>
     <task id="LOCAL-00022" summary="controller test">
       <created>1563601305333</created>
@@ -920,7 +927,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564244154326</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="i||||||||||||||">
+      <created>1564244250308</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1564244250308</updated>
+    </task>
+    <task id="LOCAL-00070" summary="filesecurity-spring-boot-starter已上传到maven仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。">
+      <created>1564244399811</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1564244399811</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -956,7 +977,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55008000" />
+    <option name="totallyTimeSpent" value="55237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,9 +1012,9 @@
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.4848485" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.39515153" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.16727273" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.16727273" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="9" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32188842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32188842" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
@@ -1056,8 +1077,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upfindshed" />
-    <MESSAGE value="return message to exception" />
     <MESSAGE value="###" />
     <MESSAGE value="echo &quot;===================================================================&quot;" />
     <MESSAGE value="add comment" />
@@ -1081,7 +1100,9 @@
     <MESSAGE value="Security_level.png" />
     <MESSAGE value="![](./doc/Security_level.png)" />
     <MESSAGE value="sec" />
-    <option name="LAST_COMMIT_MESSAGE" value="sec" />
+    <MESSAGE value="i||||||||||||||" />
+    <MESSAGE value="filesecurity-spring-boot-starter已上传到maven仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。" />
+    <option name="LAST_COMMIT_MESSAGE" value="filesecurity-spring-boot-starter已上传到maven仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1113,28 +1134,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/annotation/FileSecurityAnnotation.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/entity/PropEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1240,13 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/controller/StarterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="21" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1419,26 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/cn_doc_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/en_doc_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1453,17 +1425,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/controller/StarterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Cloud.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/file.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/security.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Security_level.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/security2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/secutity1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <first_editor>
+            <caret selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/en_doc_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/cn_doc_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
