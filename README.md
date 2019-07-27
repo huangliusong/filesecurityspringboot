@@ -4,7 +4,9 @@
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)
 [![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)
 
-# 中文文档
+# 文档(Document)
+## 中文文档(CN Document)
+## 英文文档(EN Document)
 
 ## top.huangliusong2019
 file-security-spring-boot  will help you use file-security with Spring Boot
