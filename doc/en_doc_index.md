@@ -22,7 +22,7 @@
   <version>1.1.3-SNAPSHOT</version>
 </dependency>
 ~~~
-Filesecurity -spring-boot-starter has been uploaded to maven repository. Add the dependencies above, and you can successfully block file upload requests by annotating @filesecurityannotation on the methods that need to be intercepted.
+filesecurity-spring-boot-starter has been uploaded to maven repository. Add the dependencies above, and you can successfully block file upload requests by annotating @filesecurityannotation on the methods that need to be intercepted.
 
 ## Add Annotation
 ~~~
