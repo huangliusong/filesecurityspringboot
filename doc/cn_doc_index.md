@@ -10,7 +10,7 @@
   <version>1.1.3-SNAPSHOT</version>
 </dependency>
 ~~~
-Starter已上传到maven的SNAPSHOT仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。
+Starter已上传到maven仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。
 
 ## 自定义配置
 ~~~
