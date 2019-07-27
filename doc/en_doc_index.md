@@ -10,3 +10,40 @@
 
 # Document
 [中文](./doc/cn_doc_index.md)  |  [EN](./doc/en_doc_index.md)
+
+
+# Quick Start
+
+## Add Dependency
+~~~
+<dependency>
+  <groupId>top.huangliusong2019</groupId>
+  <artifactId>filesecurity-spring-boot-starter</artifactId>
+  <version>1.1.3-SNAPSHOT</version>
+</dependency>
+~~~
+Filesecurity -spring-boot-starter has been uploaded to maven repository. Add the dependencies above, and you can successfully block file upload requests by annotating @filesecurityannotation on the methods that need to be intercepted.
+
+## Add Annotation
+~~~
+    @FileSecurityAnnotation
+    @PostMapping("/file")
+    public String starter(@RequestParam("file") MultipartFile file) {
+        return "success";
+    }
+~~~
+
+## config
+~~~
+file:
+  #prefix black list
+  upload-prefix-black-list: ".exe"
+  #prefix white list
+  upload-prefix-white-list: ""
+  #MIME  white list
+  uploadMIMEWhiteList: "image/jpeg"
+  #MIME black list
+  uploadMimeBlackList: ""
+  #validate hash value of file
+  hashCodeValidate: "MD5"
+~~~
