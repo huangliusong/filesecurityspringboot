@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/cn_doc_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -41,35 +39,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileFilterByte3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
-              <folding>
-                <element signature="e#415#431#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <file leaf-file-name="cn_doc_index.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/cn_doc_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="513">
+                <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileSecurityAnnotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/annotation/FileSecurityAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="253" column="15" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileSecurityInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -163,7 +170,6 @@
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/UploadFileBase.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileSecurityException.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/build_project_by_hls.sh" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java" />
@@ -173,6 +179,8 @@
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte10.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte3.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/cn_doc_index.md" />
       </list>
     </option>
   </component>
@@ -290,15 +298,6 @@
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
               <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,6 +305,32 @@
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
               <item name="filesecurity-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
               <item name="filesecurity-spring-boot-sample-annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="filesecurity-spring-boot-test-autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -534,21 +559,7 @@
       <workItem from="1564147368393" duration="7744000" />
       <workItem from="1564182610571" duration="572000" />
       <workItem from="1564183192305" duration="659000" />
-      <workItem from="1564228867668" duration="714000" />
-    </task>
-    <task id="LOCAL-00001" summary="Maven">
-      <created>1563588435047</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563588435047</updated>
-    </task>
-    <task id="LOCAL-00002" summary="https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg">
-      <created>1563588638772</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1563588638772</updated>
+      <workItem from="1564228867668" duration="1396000" />
     </task>
     <task id="LOCAL-00003" summary="https://img.shields.io/badge/Maven%20central-v1.1-red.svg">
       <created>1563588783634</created>
@@ -879,7 +890,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564155942427</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="result----------------">
+      <created>1564240884818</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1564240884819</updated>
+    </task>
+    <task id="LOCAL-00051" summary="out-of-the-box">
+      <created>1564240988751</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1564240988751</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -915,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52523000" />
+    <option name="totallyTimeSpent" value="53205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -950,7 +975,7 @@
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.4848485" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.39515153" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" weight="0.23030303" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.16727273" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="9" sideWeight="0.49928468" weight="0.32969698" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32188842" />
       <window_info anchor="right" id="Bean Validation" order="10" />
@@ -1015,8 +1040,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metadata document of spring" />
-    <MESSAGE value=" &lt;modules&gt;&#10;        &lt;module&gt;filesecurity-spring-boot-sample-annotation&lt;/module&gt;&#10;        &lt;module&gt;filesecurity-spring-boot-sample-properties&lt;/module&gt;&#10;    &lt;/modules&gt;" />
     <MESSAGE value="delete space" />
     <MESSAGE value="package ok" />
     <MESSAGE value="delete target" />
@@ -1040,7 +1063,9 @@
     <MESSAGE value="add file comment" />
     <MESSAGE value="remove public" />
     <MESSAGE value="FileSecurityProperties" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileSecurityProperties" />
+    <MESSAGE value="result----------------" />
+    <MESSAGE value="out-of-the-box" />
+    <option name="LAST_COMMIT_MESSAGE" value="out-of-the-box" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1072,16 +1097,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="684">
-            <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/Test.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1241,13 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/SampleStaterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1280,16 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1083">
-            <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1379,13 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/annotation/FileSecurityAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/ErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -1419,11 +1410,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/filesecurity/FileFilterByte3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="983">
           <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
           <folding>
             <element signature="e#415#431#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/annotation/FileSecurityAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/cn_doc_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="513">
+            <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
