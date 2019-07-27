@@ -6,7 +6,7 @@
 
 ![](./secutity1.png)
 
-# 文档(Document)
+# 文档
 [中文](./cn_doc_index.md)  |  [EN](./en_doc_index.md)
 
 # 中文文档

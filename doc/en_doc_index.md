@@ -8,5 +8,5 @@
 
 ![](./secutity1.png)
 
-# 文档(Document)
+# Document
 [中文](./doc/cn_doc_index.md)  |  [EN](./doc/en_doc_index.md)
