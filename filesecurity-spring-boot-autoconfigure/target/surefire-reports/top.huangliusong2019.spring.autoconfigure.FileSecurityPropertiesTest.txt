@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s - in top.huangliusong2019.spring.autoconfigure.FileSecurityPropertiesTest
