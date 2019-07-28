@@ -30,7 +30,7 @@ filesecurity-spring-boot-starter has been uploaded to maven repository. Add the 
     @PostMapping("/file")
     public String starter(@RequestParam("file") MultipartFile file) {
         return "success";
-    }
+    } 
 ~~~
 
 ## config
