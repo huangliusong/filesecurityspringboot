@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="Test success============================================">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -42,10 +42,41 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="23" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/security2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="en_doc_index.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/en_doc_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="608">
+                <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secutity1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/secutity1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -146,7 +177,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/cn_doc_index.md" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java" />
-        <option value="$PROJECT_DIR$/doc/en_doc_index.md" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/test/java/top/huangliusong2019/spring/autoconfigure/FileSecurityPropertiesTest.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/java/top/huangliusong2019/spring/controller/StarterController.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/src/main/resources/application.yml" />
@@ -155,6 +185,7 @@
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/UploadFileBase.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/exception/FileSecurityException.java" />
+        <option value="$PROJECT_DIR$/doc/en_doc_index.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
@@ -233,6 +264,11 @@
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesecurityspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -463,21 +499,7 @@
       <workItem from="1564182610571" duration="572000" />
       <workItem from="1564183192305" duration="659000" />
       <workItem from="1564228867668" duration="7143000" />
-      <workItem from="1564284490623" duration="70000" />
-    </task>
-    <task id="LOCAL-00031" summary="&lt;distributionManagement&gt;&#10;    &lt;repository&gt;&#10;        &lt;id&gt;snapshots&lt;/id&gt;&#10;        &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;    &lt;/repository&gt;&#10;    &lt;snapshotRepository&gt;&#10;        &lt;id&gt;snapshots&lt;/id&gt;&#10;        &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;    &lt;/snapshotRepository&gt;&#10;&lt;/distributionManagement&gt;">
-      <created>1563612051986</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1563612051986</updated>
-    </task>
-    <task id="LOCAL-00032" summary="&lt;distributionManagement&gt;&#10;        &lt;repository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/repository&gt;&#10;        &lt;snapshotRepository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/snapshotRepository&gt;&#10;    &lt;/distributionManagement&gt;">
-      <created>1563612369957</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1563612369957</updated>
+      <workItem from="1564284490623" duration="471000" />
     </task>
     <task id="LOCAL-00033" summary="https://github.com/huangliusong1994/filesecurity-parent">
       <created>1563613871696</created>
@@ -808,7 +830,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564274909319</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary=".travis.yml">
+      <created>1564284564011</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1564284564011</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Want to start testing this project on Travis CI?">
+      <created>1564284741346</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1564284741346</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59022000" />
+    <option name="totallyTimeSpent" value="59423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -944,8 +980,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="out-of-the-box" />
-    <MESSAGE value="# 中文文档&#10;## 介绍&#10;文件上传拦截，对文件上传进行安全性校验，拦截文件上传后缀，根据文件头前几位二进制判断文件类型，根据文件MIME类型拦截，开启文件上传校验，校验文件哈希值，只需一个注解即可完成！开箱即用！&#10;&#10;## 快速开始&#10;~~~&#10;&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-spring-boot-starter&lt;/artifactId&gt;&#10;  &lt;version&gt;1.1.3-SNAPSHOT&lt;/version&gt;&#10;&lt;/dependency&gt;&#10;~~~&#10;Starter已上传到maven的SNAPSHOT仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。&#10;&#10;## 自定义配置&#10;~~~&#10;file:&#10;  #拦截后缀黑名单&#10;  upload-prefix-black-list: &quot;.exe&quot;&#10;  #拦截后缀白名单&#10;  upload-prefix-white-list: &quot;&quot;&#10;  #拦截MIME文件类型白名单&#10;  uploadMIMEWhiteList: &quot;image/jpeg&quot;&#10;  #拦截MIME文件类型黑名单&#10;  uploadMimeBlackList: &quot;&quot;&#10;  #开启上传校验&#10;  hashCodeValidate: &quot;MD5&quot;&#10;~~~" />
     <MESSAGE value="cn_doc_index.md" />
     <MESSAGE value="document" />
     <MESSAGE value="......." />
@@ -969,7 +1003,9 @@
     <MESSAGE value="suffix" />
     <MESSAGE value="prefix change to suffix" />
     <MESSAGE value="Test success============================================" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test success============================================" />
+    <MESSAGE value=".travis.yml" />
+    <MESSAGE value="Want to start testing this project on Travis CI?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Want to start testing this project on Travis CI?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1157,13 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1183,16 +1212,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-189">
             <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/en_doc_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="389">
-            <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -1337,10 +1356,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/secutity1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/security2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/en_doc_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="608">
+            <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="23" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="6" />
         </state>
       </provider>
     </entry>
