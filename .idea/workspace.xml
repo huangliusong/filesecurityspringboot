@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-test-autoconfigure/target/" />
@@ -42,8 +39,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="6" />
+            <state relative-caret-position="323">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -499,14 +496,7 @@
       <workItem from="1564182610571" duration="572000" />
       <workItem from="1564183192305" duration="659000" />
       <workItem from="1564228867668" duration="7143000" />
-      <workItem from="1564284490623" duration="471000" />
-    </task>
-    <task id="LOCAL-00033" summary="https://github.com/huangliusong1994/filesecurity-parent">
-      <created>1563613871696</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1563613871696</updated>
+      <workItem from="1564284490623" duration="961000" />
     </task>
     <task id="LOCAL-00034" summary="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-spring-boot-starter&lt;/artifactId&gt;&#10;  &lt;version&gt;1.1.3-SNAPSHOT&lt;/version&gt;&#10;&lt;/dependency&gt;">
       <created>1563636361532</created>
@@ -844,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564284741346</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="travis.yml">
+      <created>1564285191053</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1564285191053</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,7 +877,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59423000" />
+    <option name="totallyTimeSpent" value="59913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,7 +890,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="16" weight="0.32969698" />
@@ -980,7 +976,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cn_doc_index.md" />
     <MESSAGE value="document" />
     <MESSAGE value="......." />
     <MESSAGE value="doc" />
@@ -1005,7 +1000,8 @@
     <MESSAGE value="Test success============================================" />
     <MESSAGE value=".travis.yml" />
     <MESSAGE value="Want to start testing this project on Travis CI?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Want to start testing this project on Travis CI?" />
+    <MESSAGE value="travis.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1381,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="6" />
+        <state relative-caret-position="323">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
