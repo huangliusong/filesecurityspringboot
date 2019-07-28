@@ -1,4 +1,6 @@
-package filesecurity;
+package top.huangliusong2019.filesecurity.exception;
+
+import top.huangliusong2019.filesecurity.constant.ErrorCode;
 
 /**
  * @author huangliusong
@@ -15,7 +17,7 @@ public class FileSecurityException extends RuntimeException {
      */
     private String msg;
 
-    FileSecurityException(ErrorCode errorCode) {
+    public FileSecurityException(ErrorCode errorCode) {
         super(errorCode.getMsg());
         this.code = errorCode.getCode();
         this.msg = errorCode.getMsg();

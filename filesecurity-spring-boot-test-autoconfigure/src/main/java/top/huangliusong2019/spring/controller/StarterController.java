@@ -1,6 +1,6 @@
 package top.huangliusong2019.spring.controller;
 
-import annotation.FileSecurityAnnotation;
+import top.huangliusong2019.filesecurity.annotation.FileSecurityAnnotation;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 

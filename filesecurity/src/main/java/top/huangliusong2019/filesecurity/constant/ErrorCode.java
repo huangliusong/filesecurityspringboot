@@ -1,4 +1,4 @@
-package filesecurity;
+package top.huangliusong2019.filesecurity.constant;
 
 /**
  * @author huangliusong

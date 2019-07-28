@@ -1,4 +1,4 @@
-package filesecurity;
+package top.huangliusong2019.filesecurity.bytex;
 
 import java.io.File;
 import java.io.FileInputStream;

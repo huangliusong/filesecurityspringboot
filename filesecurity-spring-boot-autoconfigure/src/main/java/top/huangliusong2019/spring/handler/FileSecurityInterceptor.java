@@ -1,7 +1,7 @@
 package top.huangliusong2019.spring.handler;
 
-import annotation.FileSecurityAnnotation;
-import filesecurity.UploadFileBase;
+import top.huangliusong2019.filesecurity.annotation.FileSecurityAnnotation;
+import top.huangliusong2019.filesecurity.Base.UploadFileBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;

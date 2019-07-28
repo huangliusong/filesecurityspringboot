@@ -1,5 +1,7 @@
-package filesecurity;
+package top.huangliusong2019.filesecurity.Base;
 
+import top.huangliusong2019.filesecurity.constant.ErrorCode;
+import top.huangliusong2019.filesecurity.exception.FileSecurityException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
