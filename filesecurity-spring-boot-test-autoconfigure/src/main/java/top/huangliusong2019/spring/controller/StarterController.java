@@ -23,9 +23,7 @@ public class StarterController {
     @FileSecurityAnnotation
     @PostMapping("/file")
     public String starter(@RequestParam("file") MultipartFile file) {
-        System.out.println(file.getContentType());
-        System.out.println(file.getName());
-        System.out.println(file.getSize());
+        System.out.println(file.getOriginalFilename());
         return "success";
     }
 }

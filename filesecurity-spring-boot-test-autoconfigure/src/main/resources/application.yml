@@ -4,3 +4,7 @@ file:
   hashCodeValidate: "MD5"
   upload-suffix-black-list: ""
   upload-suffix-white-list: ""
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
