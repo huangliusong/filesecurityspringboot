@@ -43,8 +43,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="665">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="312">
-                <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
+              <first_editor relative-caret-position="256">
+                <caret line="37" column="85" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
               </first_editor>
               <second_editor />
             </state>
@@ -246,6 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,8 +260,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,14 +547,8 @@
       <workItem from="1564296731044" duration="1208000" />
       <workItem from="1564300400639" duration="664000" />
       <workItem from="1564326397601" duration="2694000" />
-      <workItem from="1564366119170" duration="7268000" />
-    </task>
-    <task id="LOCAL-00045" summary="echo &quot;===================================================================&quot;">
-      <created>1564155412353</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1564155412353</updated>
+      <workItem from="1564366119170" duration="7351000" />
+      <workItem from="1564381543421" duration="120000" />
     </task>
     <task id="LOCAL-00046" summary="add comment">
       <created>1564155580867</created>
@@ -892,7 +886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564380633652</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="[INFO] BUILD SUCCESS">
+      <created>1564380742882</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1564380742882</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -928,7 +929,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74164000" />
+    <option name="totallyTimeSpent" value="74367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,11 +966,10 @@
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32969698" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.40242425" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="9" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
-      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -978,6 +978,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
     </layout>
@@ -992,6 +993,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.39055794" side_tool="true" weight="0.32969698" />
       <window_info id="UI Designer" order="3" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49928468" visible="true" weight="0.40242425" />
       <window_info id="Capture Tool" order="7" />
@@ -1000,25 +1002,24 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Designer" order="5" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32969698" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32969698" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32969698" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.4848485" />
       <window_info anchor="right" id="Maven Projects" order="11" weight="0.3297568" />
-      <window_info anchor="bottom" id="Find" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1028,7 +1029,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="i||||||||||||||" />
     <MESSAGE value="filesecurity-spring-boot-starter已上传到maven仓库，加入以上依赖即可，加入依赖后，在需要拦截的方法上加注解@FileSecurityAnnotation即可成功拦截文件上传请求。" />
     <MESSAGE value="# filesecurityspringboot&#10;[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)&#10;[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()&#10;[![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)&#10;[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)&#10;&#10;![](./doc/secutity1.png)&#10;&#10;# 文档(Document)&#10;[中文](./doc/cn_doc_index.md)  |  [EN](./doc/en_doc_index.md)" />
     <MESSAGE value="delete direct" />
@@ -1053,7 +1053,8 @@
     <MESSAGE value="&lt;build&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-source-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.0.1&lt;/version&gt;&#10;                &lt;!-- Bind the source plug-in to Maven's life cycle and perform the goal of the bound source after the life cycle --&gt;&#10;                &lt;executions&gt;&#10;                    &lt;execution&gt;&#10;                        &lt;!-- Bind the source plug-in to Maven lifecycle --&gt;&#10;                        &lt;phase&gt;compile&lt;/phase&gt;&#10;                        &lt;!--Execute goals for the bound source plug-in after the lifecycle --&gt;&#10;                        &lt;goals&gt;&#10;                            &lt;goal&gt;jar-no-fork&lt;/goal&gt;&#10;                        &lt;/goals&gt;&#10;                    &lt;/execution&gt;&#10;                &lt;/executions&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;skip&gt;false&lt;/skip&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.5.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;1.8&lt;/source&gt;&#10;                    &lt;target&gt;1.8&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;" />
     <MESSAGE value="delete space!I format all the code!" />
     <MESSAGE value="https://oss.sonatype.org/#nexus-search;quick~filesecurity-spring-boot-starter" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://oss.sonatype.org/#nexus-search;quick~filesecurity-spring-boot-starter" />
+    <MESSAGE value="[INFO] BUILD SUCCESS" />
+    <option name="LAST_COMMIT_MESSAGE" value="[INFO] BUILD SUCCESS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1085,6 +1086,23 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1311">
+            <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1308,12 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/classes/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.2.RELEASE/spring-boot-dependencies-2.1.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1327,9 +1339,6 @@
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/top/huangliusong2019/filesecurity-parent/1.1.2-SNAPSHOT/filesecurity-parent-1.1.2-SNAPSHOT.pom">
       <provider selected="true" editor-type-id="text-editor">
@@ -1352,13 +1361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/t/pom.xml" />
     <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1703">
@@ -1424,16 +1427,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="312">
-            <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
+          <first_editor relative-caret-position="256">
+            <caret line="37" column="85" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
           </first_editor>
           <second_editor />
         </state>

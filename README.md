@@ -35,7 +35,7 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 
 ### [filesecurity-parent](https://github.com/huangliusong/filesecurity-parent)
 
-### [filesecurity-spring-boot](https://github.com/huangliusong1994/filesecurity-parent)
+### [filesecurity-spring-boot](https://github.com/huangliusong/filesecurityspringboot)
 
 
 
