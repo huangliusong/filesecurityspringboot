@@ -10,8 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>
-    <version>1.1.4.SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <version>${filesecurity-spring-boot-autoconfigure.version}</version>
 
     <contributors>
         <contributor>
@@ -59,14 +58,4 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
