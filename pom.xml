@@ -16,11 +16,11 @@
     <version>1.1.1-SNAPSHOT</version>
 
     <modules>
+        <module>filesecurity</module>
+        <module>filesecurity-spring-boot-samples</module>
+        <module>filesecurity-spring-boot-starter</module>
         <module>filesecurity-spring-boot-autoconfigure</module>
         <module>filesecurity-spring-boot-test-autoconfigure</module>
-        <module>filesecurity-spring-boot-samples</module>
-        <module>filesecurity</module>
-        <module>filesecurity-spring-boot-starter</module>
     </modules>
 
     <properties>
@@ -33,7 +33,6 @@
         <filesecurity-spring-boot-samples-annotation.version>1.1.1-SNAPSHOT</filesecurity-spring-boot-samples-annotation.version>
         <filesecurity-spring-boot-test-autoconfigure.version>1.1.1-SNAPSHOT</filesecurity-spring-boot-test-autoconfigure.version>
     </properties>
-
 
     <dependencies>
         <dependency>
@@ -54,12 +53,14 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
     <scm>
         <tag>master</tag>
         <url>git@github.com:huangliusong/filesecurityspringboot.git</url>
         <connection>scm:git@github.com:huangliusong/filesecurityspringboot.git</connection>
         <developerConnection>scm:git@github.com:huangliusong/filesecurityspringboot.git</developerConnection>
     </scm>
+
     <developers>
         <developer>
             <name>huangliusong</name>
@@ -67,7 +68,6 @@
             <organization>huangliusong</organization>
         </developer>
     </developers>
-
 
     <distributionManagement>
         <repository>
@@ -114,7 +114,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>

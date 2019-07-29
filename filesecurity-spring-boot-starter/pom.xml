@@ -12,7 +12,6 @@
     <artifactId>filesecurity-spring-boot-starter</artifactId>
     <version>${filesecurity-spring-boot-starter.version}</version>
 
-
     <dependencies>
         <dependency>
             <groupId>top.huangliusong2019</groupId>
@@ -36,5 +35,4 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-
 </project>

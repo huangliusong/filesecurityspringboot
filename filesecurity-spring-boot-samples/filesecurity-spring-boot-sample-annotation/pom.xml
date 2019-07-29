@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <parent>
         <artifactId>filesecurity-spring-boot-samples</artifactId>
         <groupId>top.huangliusong2019</groupId>
@@ -14,7 +13,6 @@
     <artifactId>filesecurity-spring-boot-sample-annotation</artifactId>
     <version>${filesecurity-spring-boot-samples-annotation.version}</version>
 
-
     <dependencies>
         <dependency>
             <groupId>top.huangliusong2019</groupId>
@@ -22,5 +20,4 @@
             <version>${filesecurity-spring-boot-test-autoconfigure.version}</version>
         </dependency>
     </dependencies>
-
 </project>
