@@ -1,10 +1,11 @@
-package top.huangliusong2019.filesecurity.Base;
+package top.huangliusong2019.filesecurity.base;
 
 import top.huangliusong2019.filesecurity.constant.ErrorCode;
 import top.huangliusong2019.filesecurity.exception.FileSecurityException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
+import top.huangliusong2019.filesecurity.util.HashValueUtils;
 
 /**
  * @author huangliusong
@@ -83,6 +84,18 @@ public class UploadFileBase {
      */
     private boolean checkFileDigest(byte[] fileBytes, String hashCode) {
         logger.info("[File value of Hash code ]>>hashCodeValidate={}", hashCodeValidate);
+        if (StringUtils.isEmpty(hashCode)) {
+            logger.info("[HashCode Validate wasn't opening,passed]");
+            return true;
+        }
+        logger.info("[Start Validate...]");
+        //Calculate the file hash value
+        String fileHashCode = HashValueUtils.getHashCode(fileBytes, hashCode);
+        if (!(StringUtils.isEmpty(fileHashCode)) && fileHashCode.equals(hashCode)) {
+            logger.info("[HashCode Validate was opening,passed]");
+            return true;
+        }
+        logger.error("[HashCode Validate was Error]>>>");
         return false;
     }
 

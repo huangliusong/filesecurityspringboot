@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a08c22f8-d5f2-47a7-adb4-1890c484997c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/util/HashValueUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/Base/UploadFileBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/base/UploadFileBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/target/" />
@@ -41,20 +41,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UploadFileBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/Base/UploadFileBase.java">
+      <file leaf-file-name="UploadFileBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/base/UploadFileBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-690">
-              <caret line="84" column="89" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="89" />
+            <state relative-caret-position="466">
+              <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashValueUtils.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HashValueUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/util/HashValueUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="531">
+              <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +68,7 @@
       <file leaf-file-name="FileFilterByte10.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/bytex/FileFilterByte10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1109">
+            <state relative-caret-position="10">
               <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
@@ -74,26 +77,8 @@
       <file leaf-file-name="ErrorCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/constant/ErrorCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="56">
               <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSecurityProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSecurityAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -101,8 +86,8 @@
       <file leaf-file-name="FileSecurityInterceptor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+            <state relative-caret-position="76">
+              <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LoggerFactory.getLogger</find>
       <find>离开prop方法的时间</find>
       <find>离开</find>
       <find>d0cf11e0a1b11ae10000</find>
@@ -161,6 +145,7 @@
       <find>1.1.1.SNAPSHOT</find>
       <find>.SNAPSHOT</find>
       <find>filesecurity-spring-boot-starter</find>
+      <find>passed</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -182,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-annotation/src/main/java/top/huangliusong1994/spring/PropEntity.java" />
-        <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/spring/SampleAnnotationApplication.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-samples/filesecurity-spring-boot-sample-properties/src/main/java/top/huangliusong2019/test/spring/SampleAnnotationApplication.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/annotation/FileSecurityAnnotation.java" />
         <option value="$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
@@ -233,6 +216,8 @@
         <option value="$PROJECT_DIR$/filesecurity/pom.xml" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/util/DigestUtils.java" />
         <option value="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/util/HashValueUtils.java" />
+        <option value="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/Base/UploadFileBase.java" />
+        <option value="$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/base/UploadFileBase.java" />
       </list>
     </option>
   </component>
@@ -364,7 +349,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="filesecurity" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesecurityspringboot" type="b2602c69:ProjectViewProjectNode" />
@@ -757,14 +742,7 @@
       <workItem from="1564326397601" duration="2694000" />
       <workItem from="1564366119170" duration="7351000" />
       <workItem from="1564381543421" duration="169000" />
-      <workItem from="1564383104914" duration="2691000" />
-    </task>
-    <task id="LOCAL-00047" summary="add file comment">
-      <created>1564155803014</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1564155803014</updated>
+      <workItem from="1564383104914" duration="5303000" />
     </task>
     <task id="LOCAL-00048" summary="remove public">
       <created>1564155895522</created>
@@ -1102,7 +1080,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564381691112</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="commit HashUtils........">
+      <created>1564386424200</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1564386424202</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1138,7 +1123,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77107000" />
+    <option name="totallyTimeSpent" value="79719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1238,7 +1223,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# filesecurityspringboot&#10;[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)&#10;[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()&#10;[![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)&#10;[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)&#10;&#10;![](./doc/secutity1.png)&#10;&#10;# 文档(Document)&#10;[中文](./doc/cn_doc_index.md)  |  [EN](./doc/en_doc_index.md)" />
     <MESSAGE value="delete direct" />
     <MESSAGE value="delte doc" />
     <MESSAGE value="Document" />
@@ -1263,7 +1247,8 @@
     <MESSAGE value="https://oss.sonatype.org/#nexus-search;quick~filesecurity-spring-boot-starter" />
     <MESSAGE value="[INFO] BUILD SUCCESS" />
     <MESSAGE value="https://github.com/huangliusong/filesecurityspringboot" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://github.com/huangliusong/filesecurityspringboot" />
+    <MESSAGE value="commit HashUtils........" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit HashUtils........" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1598,10 +1583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="507">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1612,34 +1597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/register/FileSecurityInterceptorRegister.java">
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/autoconfigure/FileSecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/bytex/FileFilterByte10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1109">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/Base/UploadFileBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="84" column="89" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1650,17 +1611,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity-spring-boot-autoconfigure/src/main/java/top/huangliusong2019/spring/handler/FileSecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/constant/ErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="56">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/bytex/FileFilterByte10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/util/HashValueUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="531">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filesecurity/src/main/java/top/huangliusong2019/filesecurity/base/UploadFileBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
