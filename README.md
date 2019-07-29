@@ -51,13 +51,21 @@ file-security-spring-boot  will help you use file-security with Spring Boot
 ## package
 
 ~~~
-[INFO] filesecurity-spring-boot ........................... SUCCESS [  0.162 s]
-[INFO] filesecurity ....................................... SUCCESS [  1.708 s]
-[INFO] filesecurity-spring-boot-autoconfigure ............. SUCCESS [  1.945 s]
-[INFO] filesecurity-spring-boot-starter ................... SUCCESS [  0.046 s]
-[INFO] filesecurity-spring-boot-test-autoconfigure ........ SUCCESS [  0.173 s]
-[INFO] filesecurity-spring-boot-samples ................... SUCCESS [  0.002 s]
-[INFO] filesecurity-spring-boot-sample-annotation ......... SUCCESS [  0.199 s]
-[INFO] filesecurity-spring-boot-sample-properties ......... SUCCESS [  0.204 s]
-
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] filesecurity-spring-boot ........................... SUCCESS [  0.615 s]
+[INFO] filesecurity ....................................... SUCCESS [  1.116 s]
+[INFO] filesecurity-spring-boot-samples ................... SUCCESS [  0.004 s]
+[INFO] filesecurity-spring-boot-sample-annotation ......... SUCCESS [  1.348 s]
+[INFO] filesecurity-spring-boot-sample-properties ......... SUCCESS [  0.071 s]
+[INFO] filesecurity-spring-boot-autoconfigure ............. SUCCESS [  2.161 s]
+[INFO] filesecurity-spring-boot-starter ................... SUCCESS [  0.056 s]
+[INFO] filesecurity-spring-boot-test-autoconfigure ........ SUCCESS [  0.057 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.492 s
+[INFO] Finished at: 2019-07-29T06:11:50Z
+[INFO] Final Memory: 36M/459M
+[INFO] ------------------------------------------------------------------------
 ~~~
