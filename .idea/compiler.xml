@@ -14,5 +14,8 @@
         <module name="filesecurity-spring-boot-test-autoconfigure" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="t" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

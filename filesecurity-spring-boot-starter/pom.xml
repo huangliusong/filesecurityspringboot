@@ -17,7 +17,7 @@
         <dependency>
             <groupId>top.huangliusong2019</groupId>
             <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>
-            <version>${filesecurity-spring-boot-test-autoconfigure.version}</version>
+            <version>${filesecurity-spring-boot-autoconfigure.version}</version>
         </dependency>
         <dependency>
             <groupId>top.huangliusong2019</groupId>

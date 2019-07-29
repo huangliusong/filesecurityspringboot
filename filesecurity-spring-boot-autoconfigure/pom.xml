@@ -5,8 +5,9 @@
     <parent>
         <artifactId>filesecurity-spring-boot</artifactId>
         <groupId>top.huangliusong2019</groupId>
-        <version>1.1.1.SNAPSHOT</version>
+        <version>1.1.1-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>filesecurity-spring-boot-autoconfigure</artifactId>

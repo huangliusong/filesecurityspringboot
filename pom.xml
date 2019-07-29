@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.2.RELEASE</version>
+    </parent>
+
     <artifactId>filesecurity-spring-boot</artifactId>
     <groupId>top.huangliusong2019</groupId>
     <packaging>pom</packaging>
@@ -17,11 +23,30 @@
         <module>filesecurity-spring-boot-starter</module>
     </modules>
 
-    <parent>
-        <groupId>top.huangliusong2019</groupId>
-        <artifactId>filesecurity-parent</artifactId>
-        <version>1.1.4-SNAPSHOT</version>
-    </parent>
+    <properties>
+        <spring-boot.version>2.1.2.RELEASE</spring-boot.version>
+        <filesecurity.version>1.1.5-SNAPSHOT</filesecurity.version>
+        <filesecurity-spring-boot-starter.version>1.1.3-SNAPSHOT</filesecurity-spring-boot-starter.version>
+        <filesecurity-spring-boot-autoconfigure.version>1.1.3-SNAPSHOT</filesecurity-spring-boot-autoconfigure.version>
+        <filesecurity-spring-boot-test-autoconfigure.version>1.1.3-SNAPSHOT</filesecurity-spring-boot-test-autoconfigure.version>
+        <filesecurity-spring-boot-sample-properties.version>1.1.1-SNAPSHOT</filesecurity-spring-boot-sample-properties.version>
+        <filesecurity-spring-boot-samples-annotation.version>1.1.1-SNAPSHOT</filesecurity-spring-boot-samples-annotation.version>
+        <filesecurity-spring-boot-test-autoconfigure.version>1.1.1-SNAPSHOT</filesecurity-spring-boot-test-autoconfigure.version>
+
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 
     <licenses>
         <license>
