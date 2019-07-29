@@ -95,7 +95,7 @@ public class UploadFileBase {
             logger.info("[HashCode Validate was opening,passed]");
             return true;
         }
-        logger.error("[HashCode Validate was Error]>>>");
+        logger.error("[HashCode Validate was Error]>>>Your HashCode is hashCode={},Calculate the file hash value was fileHashCode={}", hashCode, fileHashCode);
         return false;
     }
 
