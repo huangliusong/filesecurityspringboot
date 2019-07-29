@@ -11,6 +11,7 @@ import java.security.MessageDigest;
  * @author huangliusong
  * @since 2019/7/29
  * {@link MessageDigest}
+ * {@link DatatypeConverter}
  */
 public class HashValueUtils {
 

@@ -52,23 +52,23 @@ public class UploadFileBase {
      * check file
      *
      * @param contentType contentType
-     * @param prefix      prefix
+     * @param suffix      suffix
      * @param hashCode    hash value
      * @param fileBytes   file
      */
-    public void checkFile(String contentType, String prefix, String hashCode, byte[] fileBytes) {
-        logger.info("check file's MIME");
+    public void checkFile(String contentType, String suffix, String hashCode, byte[] fileBytes) {
+        logger.info("Check file's MIME");
         if (!checkFileMIME(contentType)) {
             logger.error("[MIME of file type is not support]contentType={}", contentType);
             throw new FileSecurityException(ErrorCode.MIME_FILE_TYPE_ERROR);
         }
 
-        logger.info("check file's prefix");
-        if (!checkFilePreFix(prefix)) {
-            logger.error("[MIME of file type is not support]>>prefix={}", prefix);
+        logger.info("Check file's suffix");
+        if (!checkFilePreFix(suffix)) {
+            logger.error("[MIME of file type is not support]>>suffix={}", suffix);
         }
 
-        logger.info("check file's Hash value");
+        logger.info("Check file's Hash value");
         if (!checkFileDigest(fileBytes, hashCode)) {
             logger.info("[Hash Value was patch]>>hashCode={}", hashCode);
         }

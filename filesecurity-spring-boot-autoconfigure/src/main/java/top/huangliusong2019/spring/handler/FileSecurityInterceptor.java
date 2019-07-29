@@ -100,7 +100,7 @@ public class FileSecurityInterceptor extends HandlerInterceptorAdapter {
      * Call UploadFileBase to check MultipartFile
      *
      * @param multipartFile file
-     * @param hashCode      hash value
+     * @param hashCode      Hash value
      */
     private void checkingFile(MultipartFile multipartFile, String hashCode) {
         String suffix = multipartFile.getOriginalFilename().
